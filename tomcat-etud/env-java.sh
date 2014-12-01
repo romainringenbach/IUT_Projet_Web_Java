@@ -17,7 +17,7 @@
 
 export jar_files=`find "${PWD}/lib/" -name '*.jar'`
 export classpath_=`echo ${jar_files} | sed 's/\ /:/g'`
-export  CLASSPATH="${classpath_}:${CLASSPATH}"
+export CLASSPATH="${classpath_}:${CLASSPATH}"
 
 
 #----------------------------------------------------------------
