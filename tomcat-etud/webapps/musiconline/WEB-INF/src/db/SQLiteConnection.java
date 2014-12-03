@@ -1,28 +1,27 @@
 package db;
 
 import java.sql.*;
-import com.mysql.jdbc.*;
+import org.sqlite.*;
+import org.sqlite.JDBC;
 
 /**
  * Cette classe (type singleton !!) établit la connexion entre une
- * application Java et une BDD mysql.
+ * application Java et une BDD SQLite.
  */
 
-class MySQLConnection {
+class SQLiteConnection {
 
-    // !!REMPLACER XXX par vos paramètres de BDD mysql.
-    private String dsn = "jdbc:mysql://wamba.univ-ubs.fr/e_11_gl7_12_XX";
-    private String username= "e_11_gl7_12_XX";
-    private String password= "ne_11_gl7_12_XXn";
+    // !!REMPLACER xxx par vos paramètres de BDD mysql.
+    private String dsn = "jdbc:sqlite:musiconline.db";
     
     private java.sql.Connection connect;
-    private static MySQLConnection theInst = null;
+    private static SQLiteConnection theInst = null;
 
     /**
      * Constructeur privé !
      * Etablissement de la connexion.
      */
-    private MySQLConnection(){
+    private SQLiteConnection(){
         this.getConnection();
     }
 
@@ -30,11 +29,11 @@ class MySQLConnection {
      * Méthode statique de récupération de l'instance unique.
      * @return - l'instance de MySQLConnection.
      */
-    public static MySQLConnection getInstance(){
-        if ( MySQLConnection.theInst == null ) {
-            MySQLConnection.theInst = new MySQLConnection();
+    public static SQLiteConnection getInstance(){
+        if ( SQLiteConnection.theInst == null ) {
+            SQLiteConnection.theInst = new SQLiteConnection();
         }
-        return MySQLConnection.theInst;
+        return SQLiteConnection.theInst;
     }
 
     /**
@@ -44,8 +43,7 @@ class MySQLConnection {
     public java.sql.Connection getConnection(){
         if ( this.connect == null ) {
             try {
-            DriverManager.registerDriver( new com.mysql.jdbc.Driver() );
-            this.connect = DriverManager.getConnection( this.dsn, this.username, this.password );
+            this.connect =  DriverManager.getConnection(dsn);
             System.out.println( "Connexion reussie" );
             }
             catch ( Exception e ) {
@@ -72,7 +70,7 @@ class MySQLConnection {
      * Lanceur qui teste la classe MySQLConnection
      */
     public static void main(String[] args){
-        MySQLConnection theObj = MySQLConnection.getInstance();
+        SQLiteConnection theObj = SQLiteConnection.getInstance();
         theObj.closeConnection();
     }
 
