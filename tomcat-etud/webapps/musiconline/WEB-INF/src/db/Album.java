@@ -1,8 +1,7 @@
-<?php
+package db;
 
 
-import("framework.db.DataObject");
-
+import db.DataObject;
 
 /**
  * Description of Album
@@ -12,41 +11,40 @@ import("framework.db.DataObject");
  
 	class Album implements DataObject{
 
-	 	private $nom;
-	 	private $id;
+	 	private String nom;
+	 	private int id;
 		
-		public function __construct(){
+		public void Album(){
 		
 		}
 		
-		public function init($idi, $name){
+		public void init(idi, name){
 			
-				$this->nom = $name;
-				$this->id = $idi;
+				this.nom = name;
+				this.id = idi;
 		}
 		
-		public function getNom(){
+		public String getNom(){
 		
-			return $this->nom;
+			return this.nom;
 		}
 	
 			
-		public function setNom($name){
+		public void setNom(name){
 		
-			$this->nom = $name;
+			this.nom = name;
 		}
 		
-		public function getId(){
+		public int getId(){
 		
-			return $this->id;
+			return this.id;
 		}
 	
 			
-		public function setId($idi){
+		public void setId(idi){
 		
-			$this->id = $idi;
+			this.id = idi;
 		}
 
 
 	}
-?>
