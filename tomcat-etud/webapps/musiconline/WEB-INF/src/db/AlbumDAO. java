@@ -1,4 +1,4 @@
-package db
+package db;
 
 /**
  * Description of AlbumDAO  
@@ -28,12 +28,11 @@ class AlbumDAO implements DataAccessObject{
   	public final findAll(){
   	
 		SQLiteConnexion dbc = SQLiteConnexion.getDBConnection();
-		dbc.exec("SET NAMES UTF8");
-		query = "select * from Album order by nom";
+		String query = "select * from Album order by nom";
 		stmt = dbc.query(query);
-		results = stmt.fetchALL(PDO::FETCH_CLASS, 'Album');
+		ResultSet rs = stmt.fetchALL(PDO::FETCH_CLASS, 'Album');
     		
-    	return results;
+    	return rs;
     }
     
     
@@ -43,7 +42,7 @@ class AlbumDAO implements DataAccessObject{
 	        SQLiteConnexion dbc = SQLiteConnexion.getDBConnection();
 		dbc.exec("SET NAMES UTF8");
 	        // prepare the SQL statement
-	        query = "insert into Album(nom) values (:n)";
+	        String query = "insert into Album(nom) values (:n)";
 	        stmt = dbc.prepare(query);
 	
 	        // bind the paramaters
@@ -61,7 +60,7 @@ class AlbumDAO implements DataAccessObject{
 	        SQLiteConnexion dbc = SQLiteConnexion.getDBConnection();
 		dbc.exec("SET NAMES UTF8");
 	        // prepare the SQL statement
-	        query = "DELETE FROM Album WHERE id_album=:n";
+	        String query = "DELETE FROM Album WHERE id_album=:n";
 	        stmt = dbc.prepare(query);
 	
 	        // bind the paramaters
@@ -79,7 +78,7 @@ class AlbumDAO implements DataAccessObject{
 	        SQLiteConnexion dbc = SQLiteConnexion.getDBConnection();
 			dbc.exec("SET NAMES UTF8");
 	        // prepare the SQL statement
-	        query = "UPDATE Album SET nom=:n WHERE id_album=:i";
+	        String query = "UPDATE Album SET nom=:n WHERE id_album=:i";
 	        stmt = dbc.prepare(query);
 	
 	        // bind the paramaters

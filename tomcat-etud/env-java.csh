@@ -4,11 +4,11 @@
 # J2SDK
 #----------------------------------------------------------------
 
-# setenv JAVA_HOME "/vol/app/jdk"
-# setenv JDK_HOME ${JAVA_HOME}
-# setenv jar_files "${JAVA_HOME}/jre/lib/rt.jar"
-# setenv CLASSPATH "${jar_files}"
-# setenv PATH "${JAVA_HOME}/bin:$PATH"
+#setenv JAVA_HOME "/vol/app/jdk"
+#setenv JDK_HOME ${JAVA_HOME}
+#setenv jar_files "${JAVA_HOME}/jre/lib/rt.jar"
+setenv CLASSPATH ".:..:./classes:../classes"
+#setenv PATH "${JAVA_HOME}/bin:$PATH"
 
 
 #----------------------------------------------------------------
