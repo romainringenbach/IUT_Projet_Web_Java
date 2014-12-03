@@ -1,23 +1,23 @@
 package db;
 
+import db.*;
 /**
  * Description of AlbumDAO  
  *
  * @author lesommer
  */
 
-class AlbumDAO implements DataAccessObject{
+class AlbumDAO extends DAO{
 
 
 
     private static AlbumDAO dao;
     
     
-    
     private AlbumDAO() {    }
     
    
-    public final static getInstance() {
+    public final static AlbumDAO getInstance() {
         if(this.dao == null) {
             this.dao= new AlbumDAO();
         }
@@ -25,70 +25,29 @@ class AlbumDAO implements DataAccessObject{
     }
     
     
-  	public final findAll(){
-  	
-		SQLiteConnexion dbc = SQLiteConnexion.getDBConnection();
-		String query = "select * from Album order by nom";
-		stmt = dbc.query(query);
-		ResultSet rs = stmt.fetchALL(PDO::FETCH_CLASS, 'Album');
-    		
-    	return rs;
+
+   private final void insertPr(Album album, SQliteConnexion dbc){
+
+	        String query = "insert into Album(nom) values "+album.getNom();
+	        statement(dbc,query);
+
     }
     
     
-    
-   public final void insert(DataObject album){
-        if(album instanceof Album){
-	        SQLiteConnexion dbc = SQLiteConnexion.getDBConnection();
-		dbc.exec("SET NAMES UTF8");
-	        // prepare the SQL statement
-	        String query = "insert into Album(nom) values (:n)";
-	        stmt = dbc.prepare(query);
-	
-	        // bind the paramaters
-	        stmt.bindValue(':n',album.getNom(),PDO::PARAM_STR);
-	
-	         // execute the prepared statement
-	        stmt.execute();
-        }
-    }
-    
-    
-     public void delete(DataObject album){
+    private void deletePr(Album album, SQliteConnexion dbc){
      	
-     	if(album instanceof Album){
-	        SQLiteConnexion dbc = SQLiteConnexion.getDBConnection();
-		dbc.exec("SET NAMES UTF8");
-	        // prepare the SQL statement
-	        String query = "DELETE FROM Album WHERE id_album=:n";
-	        stmt = dbc.prepare(query);
-	
-	        // bind the paramaters
-	        stmt.bindValue(':n',album.getId(),PDO::PARAM_STR);
-	
-	         // execute the prepared statement
-	        stmt.execute();
-      	}
+
+	        String query = "DELETE FROM Album WHERE id_album="+album.getId();
+	        statement(dbc,query);
+
      
       }
      
-	public void update(DataObject album){
+	private void updatePr(Album album, SQliteConnexion dbc){
 	
-	    if(album instanceof Album){
-	        SQLiteConnexion dbc = SQLiteConnexion.getDBConnection();
-			dbc.exec("SET NAMES UTF8");
-	        // prepare the SQL statement
-	        String query = "UPDATE Album SET nom=:n WHERE id_album=:i";
-	        stmt = dbc.prepare(query);
-	
-	        // bind the paramaters
-	        stmt.bindValue(':n',album.getNom(),PDO::PARAM_STR);
-	        stmt.bindValue(':i',album.getId(),PDO::PARAM_STR);
-	
-	         // execute the prepared statement
-	        stmt.execute();
-      	}
-	
+
+	        String query = "UPDATE Album SET nom="+album.getNom()+" WHERE id_album="+album.getId();
+	        statement(dbc,query);
 	
 	}
 	
