@@ -1,1 +1,1 @@
-<jsp:forward page="index?p=main"/>
+<jsp:forward page="index"/>

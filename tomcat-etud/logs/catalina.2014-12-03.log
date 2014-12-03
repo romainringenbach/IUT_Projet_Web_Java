@@ -1,0 +1,751 @@
+03-Dec-2014 12:40:13.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 12:40:13.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 12:40:13.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 12:40:13.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 12:40:13.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 12:40:13.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 12:40:13.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 12:40:13.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 12:40:13.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 12:40:13.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 12:40:13.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 12:40:13.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 12:40:13.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 12:40:13.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 12:40:13.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 12:40:13.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 12:40:13.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 12:40:13.690 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 12:40:13.794 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 12:40:13.811 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 12:40:13.813 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 12:40:13.815 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 12:40:13.815 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 551 ms
+03-Dec-2014 12:40:13.845 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 12:40:13.845 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 12:40:13.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 12:40:14.367 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 12:40:14.404 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 539 ms
+03-Dec-2014 12:40:14.404 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 12:40:14.470 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 12:40:14.472 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 68 ms
+03-Dec-2014 12:40:14.472 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 12:40:14.564 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 12:40:14.567 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 95 ms
+03-Dec-2014 12:40:14.567 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 12:40:15.176 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 608 ms
+03-Dec-2014 12:40:15.176 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 12:40:15.290 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 12:40:15.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 122 ms
+03-Dec-2014 12:40:15.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 12:40:15.367 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 12:40:15.370 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 72 ms
+03-Dec-2014 12:40:15.373 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 12:40:15.378 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 12:40:15.378 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1562 ms
+03-Dec-2014 12:40:53.582 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 12:40:53.635 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 12:40:53.686 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 12:40:53.742 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 12:40:53.744 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 12:40:53.745 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 12:40:53.746 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 12:41:22.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 12:41:22.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 12:41:22.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 12:41:22.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 12:41:22.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 12:41:22.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 12:41:22.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 12:41:22.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 12:41:22.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 12:41:22.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 12:41:22.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 12:41:22.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 12:41:22.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 12:41:22.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 12:41:22.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 12:41:22.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 12:41:22.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 12:41:22.605 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 12:41:22.699 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 12:41:22.716 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 12:41:22.719 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 12:41:22.720 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 12:41:22.721 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 547 ms
+03-Dec-2014 12:41:22.749 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 12:41:22.750 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 12:41:22.764 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 12:41:23.273 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 12:41:23.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 539 ms
+03-Dec-2014 12:41:23.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 12:41:23.369 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 12:41:23.370 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 67 ms
+03-Dec-2014 12:41:23.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 12:41:23.455 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 12:41:23.457 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 87 ms
+03-Dec-2014 12:41:23.457 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 12:41:24.030 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 573 ms
+03-Dec-2014 12:41:24.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 12:41:24.135 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 12:41:24.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 120 ms
+03-Dec-2014 12:41:24.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 12:41:24.202 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 12:41:24.204 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 53 ms
+03-Dec-2014 12:41:24.208 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 12:41:24.217 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 12:41:24.218 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1496 ms
+03-Dec-2014 13:00:56.671 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 13:00:56.724 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 13:00:56.775 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 13:00:56.830 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 13:00:56.897 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 13:00:56.898 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 13:00:56.898 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 15:40:46.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 15:40:46.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 15:40:46.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 15:40:46.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 15:40:46.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 15:40:46.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 15:40:46.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 15:40:46.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 15:40:46.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 15:40:46.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 15:40:46.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 15:40:46.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 15:40:46.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 15:40:46.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 15:40:46.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 15:40:46.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 15:40:46.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 15:40:46.607 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 15:40:46.899 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 15:40:46.972 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 15:40:46.975 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 15:40:46.977 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 15:40:46.978 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1109 ms
+03-Dec-2014 15:40:47.026 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 15:40:47.026 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 15:40:47.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 15:40:47.752 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 15:40:47.799 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 762 ms
+03-Dec-2014 15:40:47.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 15:40:47.882 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 15:40:47.885 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 85 ms
+03-Dec-2014 15:40:47.885 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 15:40:47.982 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 15:40:47.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 101 ms
+03-Dec-2014 15:40:47.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 15:40:48.843 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 856 ms
+03-Dec-2014 15:40:48.843 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 15:40:48.995 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 15:40:49.050 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 207 ms
+03-Dec-2014 15:40:49.051 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 15:40:49.116 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 15:40:49.121 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 70 ms
+03-Dec-2014 15:40:49.124 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 15:40:49.130 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 15:40:49.130 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2152 ms
+03-Dec-2014 16:10:09.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 16:10:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 16:10:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 16:10:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 16:10:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 16:10:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 16:10:09.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 16:10:09.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 16:10:09.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 16:10:09.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:10:09.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:10:09.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 16:10:09.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 16:10:09.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 16:10:09.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:10:09.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:10:09.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 16:10:09.446 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 16:10:09.546 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:10:09.560 SEVERE [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+ java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:343)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:730)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:456)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:567)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:842)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:599)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+
+03-Dec-2014 16:10:09.570 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:567)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:842)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:599)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+Caused by: org.apache.catalina.LifecycleException: L''initialisation du gestionnaire de protocole a échoué
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:962)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:343)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:730)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:456)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	... 13 more
+
+03-Dec-2014 16:10:09.576 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:10:09.578 SEVERE [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"]
+ java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:343)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:730)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:456)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:567)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:842)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:599)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+
+03-Dec-2014 16:10:09.580 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:567)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:842)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:599)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+Caused by: org.apache.catalina.LifecycleException: L''initialisation du gestionnaire de protocole a échoué
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:962)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:343)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:730)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:456)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	... 13 more
+
+03-Dec-2014 16:10:09.582 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 624 ms
+03-Dec-2014 16:10:09.635 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 16:10:09.635 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 16:10:09.655 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 16:10:10.192 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:10:10.228 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 573 ms
+03-Dec-2014 16:10:10.229 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 16:10:10.303 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:10:10.305 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 77 ms
+03-Dec-2014 16:10:10.305 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 16:10:10.398 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:10:10.400 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 95 ms
+03-Dec-2014 16:10:10.400 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 16:10:11.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 733 ms
+03-Dec-2014 16:10:11.134 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 16:10:11.279 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:10:11.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 151 ms
+03-Dec-2014 16:10:11.286 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 16:10:11.346 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:10:11.349 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 62 ms
+03-Dec-2014 16:10:11.352 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1770 ms
+03-Dec-2014 16:10:11.353 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Adresse déjà utilisée
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:420)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:713)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:659)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:351)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+
+03-Dec-2014 16:10:11.354 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:10:11.354 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:10:11.354 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 16:10:11.403 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:10:11.403 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:10:11.404 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:10:11.404 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:10:12.092 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:10:12.168 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:10:12.219 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 16:10:12.271 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:10:12.273 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:10:12.274 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:10:12.274 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:10:22.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 16:10:22.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 16:10:22.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 16:10:22.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 16:10:22.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 16:10:22.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 16:10:22.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 16:10:22.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 16:10:22.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 16:10:22.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:10:22.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:10:22.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 16:10:22.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 16:10:22.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 16:10:22.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:10:22.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:10:22.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 16:10:22.259 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 16:10:22.379 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:10:22.397 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:10:22.399 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:10:22.401 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:10:22.402 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 601 ms
+03-Dec-2014 16:10:22.432 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 16:10:22.433 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 16:10:22.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 16:10:23.040 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:10:32.295 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [9 252] milliseconds.
+03-Dec-2014 16:10:32.323 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 9 863 ms
+03-Dec-2014 16:10:32.335 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 16:10:32.401 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:10:32.403 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 67 ms
+03-Dec-2014 16:10:32.403 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 16:10:32.489 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:10:32.491 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 88 ms
+03-Dec-2014 16:10:32.491 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 16:10:33.006 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 515 ms
+03-Dec-2014 16:10:33.007 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 16:10:33.175 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:10:33.194 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 187 ms
+03-Dec-2014 16:10:33.194 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 16:10:33.249 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:10:33.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 57 ms
+03-Dec-2014 16:10:33.257 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:10:33.263 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:10:33.263 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 10861 ms
+03-Dec-2014 16:31:05.395 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:31:05.398 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:31:05.398 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 16:31:05.460 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:31:05.461 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:31:05.462 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:31:05.462 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:31:07.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 16:31:07.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 16:31:07.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 16:31:07.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 16:31:07.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 16:31:07.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 16:31:07.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 16:31:07.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 16:31:07.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 16:31:07.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:31:07.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:31:07.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 16:31:07.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 16:31:07.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 16:31:07.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:31:07.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:31:07.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 16:31:07.687 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 16:31:07.802 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:31:07.818 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:31:07.821 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:31:07.823 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:31:07.831 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 634 ms
+03-Dec-2014 16:31:07.866 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 16:31:07.871 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 16:31:07.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 16:31:08.465 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:31:08.499 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 604 ms
+03-Dec-2014 16:31:08.499 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 16:31:08.575 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:31:08.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 78 ms
+03-Dec-2014 16:31:08.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 16:31:08.665 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:31:08.668 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 91 ms
+03-Dec-2014 16:31:08.668 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 16:31:09.314 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 646 ms
+03-Dec-2014 16:31:09.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 16:31:09.421 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:31:09.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 123 ms
+03-Dec-2014 16:31:09.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 16:31:09.502 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:31:09.505 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 66 ms
+03-Dec-2014 16:31:09.507 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:31:09.513 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:31:09.516 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1684 ms
+03-Dec-2014 16:34:13.741 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:34:13.760 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:34:13.760 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 16:34:13.814 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:34:13.815 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:34:13.816 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:34:13.816 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:35:24.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 16:35:24.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 16:35:24.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 16:35:24.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 16:35:24.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 16:35:24.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 16:35:24.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 16:35:24.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 16:35:24.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 16:35:24.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:35:24.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:35:24.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 16:35:24.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 16:35:24.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 16:35:24.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:35:24.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:35:24.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 16:35:24.719 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 16:35:24.828 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:35:24.845 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:35:24.848 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:35:24.850 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:35:24.851 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 619 ms
+03-Dec-2014 16:35:24.893 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 16:35:24.900 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 16:35:24.921 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 16:35:25.444 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:35:25.506 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 584 ms
+03-Dec-2014 16:35:25.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 16:35:25.593 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:35:25.595 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 87 ms
+03-Dec-2014 16:35:25.596 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 16:35:25.690 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:35:25.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 98 ms
+03-Dec-2014 16:35:25.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 16:35:26.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 702 ms
+03-Dec-2014 16:35:26.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 16:35:26.536 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:35:26.542 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 147 ms
+03-Dec-2014 16:35:26.542 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 16:35:26.607 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:35:26.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 67 ms
+03-Dec-2014 16:35:26.612 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:35:26.616 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:35:26.617 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1766 ms
+03-Dec-2014 16:36:59.550 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:36:59.553 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:36:59.553 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 16:36:59.614 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:36:59.615 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:36:59.616 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:36:59.617 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:37:27.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 16:37:27.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 16:37:27.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 16:37:27.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 16:37:27.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 16:37:27.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 16:37:27.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 16:37:27.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 16:37:27.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 16:37:27.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:37:27.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:37:27.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 16:37:27.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 16:37:27.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 16:37:27.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:37:27.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:37:27.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 16:37:27.161 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 16:37:27.257 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:37:27.273 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:37:27.276 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:37:27.278 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:37:27.283 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 617 ms
+03-Dec-2014 16:37:27.310 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 16:37:27.311 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 16:37:27.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 16:37:27.875 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:37:27.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 574 ms
+03-Dec-2014 16:37:27.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 16:37:27.992 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:37:27.994 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 83 ms
+03-Dec-2014 16:37:27.994 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 16:37:28.086 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:37:28.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 94 ms
+03-Dec-2014 16:37:28.088 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 16:37:28.621 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 533 ms
+03-Dec-2014 16:37:28.622 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 16:37:28.756 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:37:28.788 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 166 ms
+03-Dec-2014 16:37:28.788 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 16:37:28.844 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:37:28.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 61 ms
+03-Dec-2014 16:37:28.853 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:37:28.858 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:37:28.858 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1575 ms
+03-Dec-2014 16:41:11.144 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:41:11.147 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:41:11.147 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 16:41:11.200 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:41:11.273 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:41:11.274 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:41:11.274 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:41:13.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 16:41:13.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 16:41:13.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 16:41:13.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 16:41:13.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 16:41:13.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 16:41:13.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 16:41:13.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 16:41:13.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 16:41:13.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:41:13.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:41:13.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 16:41:13.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 16:41:13.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 16:41:13.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:41:13.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:41:13.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 16:41:13.916 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 16:41:14.017 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:41:14.036 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:41:14.038 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:41:14.041 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:41:14.044 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 642 ms
+03-Dec-2014 16:41:14.073 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 16:41:14.073 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 16:41:14.099 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 16:41:14.678 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:41:14.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 616 ms
+03-Dec-2014 16:41:14.716 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 16:41:14.787 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:41:14.790 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 74 ms
+03-Dec-2014 16:41:14.790 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 16:41:14.880 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:41:14.883 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 93 ms
+03-Dec-2014 16:41:14.883 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 16:41:15.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 694 ms
+03-Dec-2014 16:41:15.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 16:41:15.704 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:41:15.722 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 145 ms
+03-Dec-2014 16:41:15.722 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 16:41:15.796 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:41:15.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 78 ms
+03-Dec-2014 16:41:15.803 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:41:15.808 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:41:15.809 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1764 ms
+03-Dec-2014 16:47:18.627 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:47:18.630 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:47:18.630 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 16:47:18.719 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:47:18.779 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:47:18.780 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:47:18.780 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:47:24.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 16:47:24.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 16:47:24.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 16:47:24.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 16:47:24.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 16:47:24.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 16:47:24.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 16:47:24.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 16:47:24.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 16:47:24.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:47:24.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:47:24.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 16:47:24.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 16:47:24.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 16:47:24.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:47:24.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:47:24.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 16:47:24.211 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 16:47:24.309 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:47:24.325 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:47:24.327 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:47:24.330 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:47:24.332 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 618 ms
+03-Dec-2014 16:47:24.359 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 16:47:24.359 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 16:47:24.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 16:47:24.875 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:47:24.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 534 ms
+03-Dec-2014 16:47:24.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 16:47:25.049 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:47:25.052 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 136 ms
+03-Dec-2014 16:47:25.052 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 16:47:25.185 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:47:25.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 136 ms
+03-Dec-2014 16:47:25.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 16:47:25.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 751 ms
+03-Dec-2014 16:47:25.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 16:47:26.068 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:47:26.090 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 149 ms
+03-Dec-2014 16:47:26.090 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 16:47:26.154 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:47:26.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 68 ms
+03-Dec-2014 16:47:26.161 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:47:26.165 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:47:26.166 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1834 ms
+03-Dec-2014 16:50:22.093 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:50:22.096 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:50:22.096 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 16:50:22.155 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:50:22.156 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:50:22.157 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:50:22.157 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:50:23.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 16:50:23.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 16:50:23.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 16:50:23.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 16:50:23.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 16:50:23.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 16:50:23.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 16:50:23.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 16:50:23.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 16:50:23.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:50:23.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:50:23.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 16:50:23.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 16:50:23.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 16:50:23.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:50:23.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:50:23.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 16:50:23.694 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 16:50:23.801 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:50:23.820 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:50:23.822 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:50:23.824 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:50:23.829 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 642 ms
+03-Dec-2014 16:50:23.857 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 16:50:23.857 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 16:50:23.886 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 16:50:24.489 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:50:24.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 640 ms
+03-Dec-2014 16:50:24.527 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 16:50:24.608 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:50:24.611 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 84 ms
+03-Dec-2014 16:50:24.611 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 16:50:24.701 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:50:24.703 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 92 ms
+03-Dec-2014 16:50:24.703 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 16:50:25.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 503 ms
+03-Dec-2014 16:50:25.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 16:50:25.325 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:50:25.348 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 142 ms
+03-Dec-2014 16:50:25.354 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 16:50:25.446 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:50:25.448 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 94 ms
+03-Dec-2014 16:50:25.451 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:50:25.455 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:50:25.456 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1626 ms
+03-Dec-2014 16:50:45.541 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:50:45.594 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:50:45.644 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 16:50:45.687 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:50:45.687 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:50:45.688 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:50:45.688 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:50:51.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+03-Dec-2014 16:50:51.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+03-Dec-2014 16:50:51.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+03-Dec-2014 16:50:51.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+03-Dec-2014 16:50:51.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-4-amd64
+03-Dec-2014 16:50:51.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2014 16:50:51.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+03-Dec-2014 16:50:51.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+03-Dec-2014 16:50:51.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2014 16:50:51.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:50:51.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:50:51.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+03-Dec-2014 16:50:51.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2014 16:50:51.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/endorsed
+03-Dec-2014 16:50:51.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:50:51.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud
+03-Dec-2014 16:50:51.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ubs/home/etud/2013/e1300426/IUT_Projet_Web_Java/tomcat-etud/temp
+03-Dec-2014 16:50:51.311 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+03-Dec-2014 16:50:51.442 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:50:51.458 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:50:51.461 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:50:51.463 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2014 16:50:51.467 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 624 ms
+03-Dec-2014 16:50:51.509 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+03-Dec-2014 16:50:51.516 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+03-Dec-2014 16:50:51.548 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+03-Dec-2014 16:50:52.149 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:50:52.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 642 ms
+03-Dec-2014 16:50:52.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+03-Dec-2014 16:50:52.274 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:50:52.276 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 85 ms
+03-Dec-2014 16:50:52.276 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+03-Dec-2014 16:50:52.387 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:50:52.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 113 ms
+03-Dec-2014 16:50:52.390 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+03-Dec-2014 16:50:53.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 663 ms
+03-Dec-2014 16:50:53.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+03-Dec-2014 16:50:53.215 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:50:53.233 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 180 ms
+03-Dec-2014 16:50:53.234 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+03-Dec-2014 16:50:53.292 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Dec-2014 16:50:53.294 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /amd/fukuisaurus.univ-ubs.fr/ubs/fukuisaurus/home.1/6/e1300426/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 61 ms
+03-Dec-2014 16:50:53.297 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 16:50:53.302 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 16:50:53.302 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1835 ms
+03-Dec-2014 17:13:20.329 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 17:13:20.332 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 17:13:20.332 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+03-Dec-2014 17:13:20.401 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 17:13:20.402 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2014 17:13:20.403 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2014 17:13:20.404 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

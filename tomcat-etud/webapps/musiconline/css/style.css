@@ -1,12 +1,12 @@
 
 html, body {
   color: #283147;
-  background: #cfdfff;
+  background: #BFEFFF;
 }
 
 div.header {
 	border:  1px solid #496fb0;
-	background-color: #fffeab; 
+	background-color: #F9BEC7;
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif; 
 	font-size : 20pt;
@@ -49,7 +49,7 @@ div.left_panel{
 
 
 .left_panel .menuBoxHeader {
-  background-color: #fffeab; 
+  background-color: #F9BEC7;
   border: 1px solid #496fb0; 
   padding: 4px 2px 4px 6px;
   float: left;
@@ -104,7 +104,7 @@ H1 {
 H1.withborder{
 	border: solid 2px ; 
 	border-color:#848181; 
-	background: #fefeff  ;
+	background: #fefeff
 	color: #000099 ;
  	margin: 1em auto 2.5em auto;
 	padding: 1em 1em 1em 1em;

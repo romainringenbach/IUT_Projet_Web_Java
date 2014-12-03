@@ -25,6 +25,11 @@ public class FrontController extends HttpServlet {
 		rules.add(new UrlMapping("main",null,"/jsp/MainView.jsp"));
 		rules.add(new UrlMapping("error",null,"/jsp/Error.jsp"));
 		rules.add(new UrlMapping("categorie",new CategoryTitleListener(),"/jsp/CategoryTitleView.jsp"));
+		rules.add(new UrlMapping("newcpt",null,"/jsp/AccountCreationView.jsp"));
+		rules.add(new UrlMapping("validcpt", new AccountCreationListener(),"/jsp/AccountValidationView.jsp"));
+		rules.add(new UrlMapping("concpt", null,"/jsp/AccountConnectionView.jsp"));
+		rules.add(new UrlMapping("validcon",new AccountConnectionListener(),"/jsp/DefaultTitleView.jsp"));
+		rules.add(new UrlMapping("catTit", new CategoryTitleListener(),"/jsp/CategoryTitleView.jsp"));
 
 	    this.appController.setRules(rules);
 	}

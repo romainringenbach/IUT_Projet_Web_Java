@@ -5,7 +5,7 @@
 		<span class="menuBoxTitle">Divers</span>
 	</div>
 	<div class="menuBoxContent">
-		<a class="nav" href="/musiconline/">Retour accueil</a><br/>
+		<a class="nav" href="/musiconline/?p=main">Retour accueil</a><br/>
 	</div>
 
 	<%
@@ -35,8 +35,8 @@
 	<%
 		// non connecté
 		if (session.getAttribute("user_firstname") == null) {
-			out.println("<a class=\"nav\" href=\"/musiconline/index?action=null&view=newCptView\">Creer un compte</a><br/>");
-			out.println("<a class=\"nav\" href=\"/musiconline/index?action=null&view=conCptView\">Se connecter</a><br/>");
+			out.println("<a class=\"nav\" href=\"/musiconline/?p=newcpt\">Creer un compte</a><br/>");
+			out.println("<a class=\"nav\" href=\"/musiconline/?p=concpt\">Se connecter</a><br/>");
 		}
 		// connecté
 		else {
