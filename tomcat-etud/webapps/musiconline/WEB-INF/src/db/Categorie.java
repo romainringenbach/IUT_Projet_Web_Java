@@ -1,9 +1,6 @@
-<?php
+package db;
 
-
-import("framework.db.DataObject");
-
-
+import db.DataObject;
 /**
  * Description of Categorie
  *
@@ -11,32 +8,31 @@ import("framework.db.DataObject");
  */
 	class Categorie implements DataObject{
 
-	 	private $nom;
+	 	private String nom;
 		
-		public function __construct(){
+		public Categorie(){
 		
 		}
 		
-		public function init($name){
+		public String init(String name){
 			
-				$this->nom = $name;
+				this.nom = name;
 				
 		}
 		
-		public function getNom(){
+		public String getNom(){
 		
-			return $this->nom;
+			return this.nom;
 		}
 	
 			
-		public function setNom($name){
+		public void setNom(String name){
 		
-			$this->nom = $name;
+			this.nom = name;
 		}
 
 	}
-?>
-			
+		
 		
 		
 		

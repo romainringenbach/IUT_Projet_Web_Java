@@ -1,8 +1,6 @@
-<?php
+package db;
 
-
-import("framework.db.DataObject");
-
+import db.DataObject;
 
 /**
  * Description of Artiste
@@ -12,41 +10,40 @@ import("framework.db.DataObject");
  
 	class Artiste implements DataObject{
 
-	 	private $nom;
-	 	private $id;
+	 	private String nom;
+	 	private int id;
 		
-		public function __construct(){
+		public Artiste(){
 		
 		}
 		
-		public function init($idi, $name){
+		public void init(int idi, String name){
 			
-				$this->nom = $name;
-				$this->id = $idi;
+				this.nom = name;
+				this.id = idi;
 		}
 		
-		public function getNom(){
+		public String  getNom(){
 		
-			return $this->nom;
+			return this.nom;
 		}
 	
 			
-		public function setNom($name){
+		public void setNom(String name){
 		
-			$this->nom = $name;
+			this.nom = name;
 		}
 		
-		public function getId(){
+		public int  getId(){
 		
-			return $this->id;
+			return this.id;
 		}
 	
 			
-		public function setId($idi){
+		public void setId(int idi){
 		
-			$this->id = $idi;
+			this.id = idi;
 		}
 
 
 	}
-?>

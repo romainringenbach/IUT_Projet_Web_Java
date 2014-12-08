@@ -1,7 +1,6 @@
-<?php
+package db;
 
-
-import("framework.db.DataObject");
+import db.DataObject;
 
 
 /**
@@ -11,31 +10,31 @@ import("framework.db.DataObject");
  */
 	class Pays implements DataObject{
 
-	 	private $nom;
+	 	private nom;
 		
-		public function __construct(){
+		public Pays(){
 		
 		}
 		
-		public function init($name){
+		public void init(String name){
 			
-				$this->nom = $name;
+				this.nom = name;
 				
 		}
 		
-		public function getNom(){
+		public String getNom(){
 		
-			return $this->nom;
+			return this.nom;
 		}
 	
 			
-		public function setNom($name){
+		public void setNom(String name){
 		
-			$this->nom = $name;
+			this.nom = name;
 		}
 
 	}
-?>
+
 			
 		
 		

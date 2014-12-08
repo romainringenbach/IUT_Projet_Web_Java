@@ -1,7 +1,6 @@
-<?php
+package db;
 
-
-import("framework.db.DataObject");
+import db.DataObject;
 
 
 /**
@@ -12,94 +11,94 @@ import("framework.db.DataObject");
  
 	class Titre implements DataObject{
 
-	 	private $id;
-	 	private $nom;
-	 	private $album;
-	 	private $artiste;
-	 	private $categorie;
-	 	private $prix;
+	 	private int id;
+	 	private String nom;
+	 	private int album;
+	 	private int artiste;
+	 	private int categorie;
+	 	private int prix;
 	 	
 		
-		public function __construct(){
+		public Titre(){
 		
 		}
 		
-		public function init($idi, $name, $album, $artiste, $categorie, $prix){
+		public void init(int idi,int name,int album,int artiste,String categorie,int prix){
 			
-				$this->id = $idi;
-				$this->nom = $name;
-				$this->album =$album;
-				$this->artiste =$artiste;
-				$this->categorie =$categorie;
-				$this->prix =$prix;
+				this.id = idi;
+				this.nom = name;
+				this.album =album;
+				this.artiste =artiste;
+				this.categorie =categorie;
+				this.prix =prix;
 		}
 		
-		public function getNom(){
+		public String getNom(){
 		
-			return $this->nom;
+			return this.nom;
 		}
 	
 			
-		public function setNom($name){
+		public void setNom(String name){
 		
-			$this->nom = $name;
+			this.nom = name;
 		}
 		
-		public function getId(){
+		public int getId(){
 		
-			return $this->id;
-		}
-	
-			
-		public function setId($idi){
-		
-			$this->id = $idi;
-		}
-		
-		public function getAlbum(){
-		
-			return $this->album;
+			return this.id;
 		}
 	
 			
-		public function setAlbum($album){
+		public void setId(int idi){
 		
-			$this->album = $album;
+			this.id = idi;
 		}
 		
-		public function getArtiste(){
+		public int getAlbum(){
 		
-			return $this->artiste;
-		}
-	
-			
-		public function setArtiste($artiste){
-		
-			$this->artiste = $artiste;
-		}
-		
-		public function getCategorie(){
-		
-			return $this->categorie;
+			return this.album;
 		}
 	
 			
-		public function setCategorie($categorie){
+		public void setAlbum(int album){
 		
-			$this->categorie= $categorie;
+			this.album = album;
 		}
 		
-		public function getPrix(){
+		public int getArtiste(){
 		
-			return $this->prix;
+			return this.artiste;
 		}
 	
 			
-		public function setPrix($prix){
+		public void setArtiste(int artiste){
 		
-			$this->prix = $prix;
+			this.artiste = artiste;
+		}
+		
+		public String getCategorie(){
+		
+			return this.categorie;
+		}
+	
+			
+		public void setCategorie(String categorie){
+		
+			this.categorie= categorie;
+		}
+		
+		public int getPrix(){
+		
+			return this.prix;
+		}
+	
+			
+		public void setPrix(int prix){
+		
+			this.prix = prix;
 		}
 
 
 	}
-?>
+

@@ -7,7 +7,7 @@ import db.*;
  * @author lesommer
  */
 
-class AlbumDAO extends DAO{
+class AlbumDAO extends DataAccesObject{
 
 
 

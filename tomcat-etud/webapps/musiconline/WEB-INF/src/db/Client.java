@@ -1,7 +1,6 @@
-<?php
+package db;
 
-
-import("framework.db.DataObject");
+import db.DataObject;
 
 
 /**
@@ -12,146 +11,145 @@ import("framework.db.DataObject");
  
 	class Client implements DataObject{
 
-	 	private $login;
-	 	private $email;
-	 	private $passwd;
-	 	private $nom;
-	 	private $prenom;
-	 	private $dateNaissance;
-	 	private $adresse ;
-	  	private $code_postal;
-	 	private $ville;
-	 	private $pays ;
+	 	private String login;
+	 	private String email;
+	 	private String passwd;
+	 	private String nom;
+	 	private String prenom;
+	 	private String dateNaissance;
+	 	private String adresse ;
+	  	private int code_postal;
+	 	private String ville;
+	 	private String pays ;
 	 	
 		
-		public function __construct(){
+		public  Client(){
 		
 		}
 		
-		public function init($login, $email, $passwd, $nom, $prenom, $dateNaissance, $adresse, $code_postal, $ville, $pays){
+		public void init(String login, String email, String passwd, String nom, String prenom, String dateNaissance, String adresse, int code_postal, String ville, String pays){
 			
-				$this->login = $login;
-				$this->email = $email;
-				$this->passwd =$passwd;
-				$this->nom =$nom;
-				$this->prenom =$prenom;
-				$this->date_naissance =$dateNaissance;
-				$this->adresse =$adresse;
-				$this->code_postal =$code_postal;
-				$this->ville =$ville;
-				$this->pays =$pays;
+				this.login = login;
+				this.email = email;
+				this.passwd =passwd;
+				this.nom =nom;
+				this.prenom =prenom;
+				this.date_naissance =dateNaissance;
+				this.adresse =adresse;
+				this.code_postal =code_postal;
+				this.ville =ville;
+				this.pays =pays;
 		}
 		
-		public function getLogin(){
+		public String getLogin(){
 		
-			return $this->login;
+			return this.login;
 		}
 	
 			
-		public function setLogin($login){
+		public void setLogin(String login){
 		
-			$this->login = $login;
+			this.login = login;
 		}
 		
-		public function getEmail(){
+		public String getEmail(){
 		
-			return $this->email;
-		}
-	
-			
-		public function setEmail($email){
-		
-			$this->email = $email;
-		}
-		
-		public function getPassword(){
-		
-			return $this->passwd;
+			return this.email;
 		}
 	
 			
-		public function setPassword($password){
+		public void setEmail(String email){
 		
-			$this->passwd = $password;
+			this.email = email;
 		}
 		
-		public function getNom(){
+		public String getPassword(){
 		
-			return $this->nom;
-		}
-	
-			
-		public function setNom($name){
-		
-			$this->nom = $name;
-		}
-		
-		public function getPrenom(){
-		
-			return $this->prenom;
+			return this.passwd;
 		}
 	
 			
-		public function setPrenom($prenom){
+		public void setPassword(String password){
 		
-			$this->prenom= $prenom;
+			this.passwd = password;
 		}
 		
-		public function getDateNaissance(){
+		public String getNom(){
 		
-			return $this->date_naissance;
-		}
-	
-			
-		public function setDateNaissance($date){
-		
-			$this->date_naissance = $date;
-		}
-		
-		public function getAdresse(){
-	
-			return $this->adresse;
+			return this.nom;
 		}
 	
 			
-		public function setAdresse($adresse){
+		public void setNom(String name){
 		
-			$this->adresse= $adresse;
+			this.nom = name;
 		}
 		
-		public function getCodePostal(){
+		public String getPrenom(){
 		
-			return $this->code_postal;
+			return this.prenom;
 		}
 	
 			
-		public function setCodePostal($code){
+		public void setPrenom(String prenom){
 		
-			$this->code_postal= $code;
+			this.prenom= prenom;
+		}
+		
+		public String getDateNaissance(){
+		
+			return this.date_naissance;
+		}
+	
+			
+		public void setDateNaissance(String date){
+		
+			this.date_naissance = date;
+		}
+		
+		public String getAdresse(){
+	
+			return this.adresse;
+		}
+	
+			
+		public void setAdresse(String adresse){
+		
+			this.adresse= adresse;
+		}
+		
+		public int getCodePostal(){
+		
+			return this.code_postal;
+		}
+	
+			
+		public void setCodePostal(int code){
+		
+			this.code_postal= code;
 		}
 
-		public function getVille(){
+		public String getVille(){
 		
-			return $this->ville;
+			return this.ville;
 		}
 	
 			
-		public function setVille($ville){
+		public void setVille(String ville){
 		
-			$this->ville= $ville;
+			this.ville= ville;
 		}
 		
 		
-		public function getPays(){
+		public String getPays(){
 		
-			return $this->pays;
+			return this.pays;
 		}
 	
 			
-		public function setPays($pays){
+		public void setPays(String pays){
 		
-			$this->pays = pays;
+			this.pays = pays;
 		}
 
 	}
-?>

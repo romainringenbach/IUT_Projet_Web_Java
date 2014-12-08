@@ -1,6 +1,5 @@
 package db;
 
-
 import db.DataObject;
 
 /**

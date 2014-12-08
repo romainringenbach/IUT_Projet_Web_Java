@@ -1,7 +1,6 @@
-<?php
+package db;
 
-
-import("framework.db.DataObject");
+import db.DataObject;
 
 
 /**
@@ -12,54 +11,54 @@ import("framework.db.DataObject");
  
 	class Commande implements DataObject{
 
-	 	private idTitre;
-	 	private loginClient ;
-	 	private date;
+	 	private int  idTitre;
+	 	private String loginClient ;
+	 	private String date;
 		
-		public function __construct(){
+		public  Commande(){
 		
 		}
 		
-		public function init($idT, $log, $date){
+		public void init(int idT, String log, String date){
 			
-				$this->idTitre = $idT;
-				$this->loginClient = $log;
-				$this->date = $date;
+				this.idTitre = idT;
+				this.loginClient = log;
+				this.date = date;
 		}
 		
-		public function getIdTitre(){
+		public int getIdTitre(){
 		
-			return $this->idTitre;
+			return this.idTitre;
 		}
 	
 			
-		public function setIdTitre($idT){
+		public void setIdTitre(int idT){
 		
-			$this->idTitre = $idT;
+			this.idTitre = idT;
 		}
 		
-		public function getLoginClient(){
+		public String getLoginClient(){
 		
-			return $this->loginClient;
-		}
-	
-			
-		public function setLoginClient($log){
-		
-			$this->loginClient = $log;
-		}
-		
-		public function getDate(){
-		
-			return $this->date;
+			return this.loginClient;
 		}
 	
 			
-		public function setDate($date){
+		public void setLoginClient(String log){
 		
-			$this->date = $date;
+			this.loginClient = log;
+		}
+		
+		public String getDate(){
+		
+			return this.date;
+		}
+	
+			
+		public void setDate(String date){
+		
+			this.date = date;
 		}
 
 
 	}
-?>
+
