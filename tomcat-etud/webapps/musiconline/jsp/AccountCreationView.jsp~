@@ -13,27 +13,65 @@
    	Object data = request.getAttribute("data");
 
 	if(data!=null && data instanceof String){
-	out.println(data);
 	}
+	
+	
+
      </jsp:scriptlet>
 	
-	<br />Veuillez remplir les formulaire ci-dessous afin de créer un compte sur MusicOnline.<br />  <br />
+	<br />Veuillez remplir les formulaire ci-dessous afin de cr&#233er un compte sur MusicOnline.<br /> <br />
 		<fieldset> 
 			<legend>Cr&#233ation de compte</legend>
-				<form method="POST" action="?p=validcpt" enctype="application/x-www-form-urlencoded">
-					<br/>Nom: <INPUT  type="text" name="nom"/>
-					<br/>Pr&#233nom : <INPUT  type="text" name="prenom"/>
-					<br/>Login : <INPUT  type="text" name="login"/>
-					<br/><label>Mot de passe  : </label>
-					<INPUT type="password" name="password">
-					<br/>Date de naissance (AAAA-MM-JJ) : <INPUT  type="text" name="date"/>
-					<br/>Adresse e-mail : <INPUT  type="text" name="email"/>
-					<br/>Adresse (lieu-dit, rue, ...) : <INPUT  type="text" name="adresse"/>
-					<br/>Code postal : <INPUT  type="text" name="code"/>
-					<br/>Ville : <INPUT  type="text" name="ville"/>
-					<br/>Pays : <INPUT  type="text" name="pays"/>
-					<br/><INPUT type="submit" name="confirmer" value="Confirmer"/>
-				</form>
+			<form method="POST" action="?p=validcpt" enctype="application/x-www-form-urlencoded">
+				<table>
+				   <tr>
+				       <td>Nom :</th>
+				       <td><INPUT  type="text" name="nom"/></th>
+				   </tr>
+				   <tr>
+				       <td>Pr&#233nom :</td>
+				       <td><INPUT type="text" name="prenom"></td>
+				   </tr>
+				   <tr>
+				       <td>Login :</th>
+				       <td><INPUT  type="text" name="login"/></th>
+				   </tr>
+
+				   <tr>
+				       <td>Mot de passe :</td>
+				       <td><INPUT type="text" name="password"></td>
+				   </tr>
+				   <tr>
+				       <td>Date de naissance (AAAA-MM-JJ) :</th>
+				       <td><INPUT  type="text" name="date"/></th>
+				   </tr>
+
+				   <tr>
+				       <td>Adresse e-mail :</td>
+				       <td><INPUT type="text" name="email"></td>
+				   </tr>
+				   <tr>
+				       <td>Adresse (lieu-dit, rue, ...) :</th>
+				       <td><INPUT  type="text" name="adresse"/></th>
+				   </tr>
+
+				   <tr>
+				       <td>Code postal :</td>
+				       <td><INPUT type="text" name="code"></td>
+				   </tr>
+				   <tr>
+				       <td>Ville :</th>
+				       <td><INPUT  type="text" name="ville"/></th>
+				   </tr>
+
+				   <tr>
+				       <td>Pays :</td>
+				       <td><INPUT type="text" name="pays"></td>
+				   </tr>
+
+				</table>
+				<br/><INPUT type="submit" name="confirmer" value="Confirmer"/>
+			</form>
 		</fieldset>
    </div>
  </body>

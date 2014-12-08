@@ -16,6 +16,23 @@
 	out.println(data);
 	}
      </jsp:scriptlet>
+		<br />Veuillez remplir les formulaire ci-dessous afin de vous connecter.<br /><br />
+		<fieldset> <legend>Connexion au compte client</legend>
+			<form method="POST" action="http://m3104.iut-info-vannes.net/m3104_6/public_html/musiconline/?validLog" enctype="application/x-www-form-urlencoded">
+				<table>
+				   <tr>
+				       <td>Login  :</th>
+				       <td><INPUT  type="text" name="login"/></th>
+				   </tr>
+
+				   <tr>
+				       <td>Mot de passe  :</td>
+				       <td><INPUT type="password" name="password"></td>
+				   </tr>
+				</table>
+				<br/><INPUT type="submit" name="confirmer" value="Confirmer"/>
+			</form>
+		</fieldset>
    </div>
  </body>
 </html>
