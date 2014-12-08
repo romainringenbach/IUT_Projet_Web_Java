@@ -8,8 +8,10 @@ public class AccountCreationListener implements ActionListener {
 
   public void handle(HttpServletRequest request){
 
-    request.setAttribute("data", "AccountCreationListener");
-  }
+    request.setAttribute("data", "Okay mec");
+    
+    		
+    
+   }
   
 }
-

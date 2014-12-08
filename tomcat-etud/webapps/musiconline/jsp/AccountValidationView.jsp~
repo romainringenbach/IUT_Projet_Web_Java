@@ -15,7 +15,6 @@
 
 	if(data!=null && nom!=null && data instanceof String){
 		out.println(nom);
-   		out.println(data);
 	}
 
 	out.println("error");

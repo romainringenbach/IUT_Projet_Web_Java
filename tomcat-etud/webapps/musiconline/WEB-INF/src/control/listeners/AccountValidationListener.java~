@@ -9,8 +9,8 @@ public class AccountValidationListener implements ActionListener {
   public void handle(HttpServletRequest request){
 
     request.setAttribute("data", "AccountValidationListener");
-    
 
+	
   }
   
 }
