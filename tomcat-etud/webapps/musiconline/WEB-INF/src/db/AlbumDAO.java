@@ -29,7 +29,7 @@ class AlbumDAO extends DataAccesObject{
    private final void insertPr(Album album, SQliteConnexion dbc){
 
 	        String query = "insert into Album(nom) values "+album.getNom();
-	        statement(dbc,query);
+	        super.statement(dbc,query);
 
     }
     
@@ -38,7 +38,7 @@ class AlbumDAO extends DataAccesObject{
      	
 
 	        String query = "DELETE FROM Album WHERE id_album="+album.getId();
-	        statement(dbc,query);
+	        super.statement(dbc,query);
 
      
       }
@@ -47,7 +47,7 @@ class AlbumDAO extends DataAccesObject{
 	
 
 	        String query = "UPDATE Album SET nom="+album.getNom()+" WHERE id_album="+album.getId();
-	        statement(dbc,query);
+	        super.statement(dbc,query);
 	
 	}
 	

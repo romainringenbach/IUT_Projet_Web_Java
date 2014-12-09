@@ -1,9 +1,4 @@
-<?php 
-
-import ('framework.Application');
-import ('musiconline.db.Pays');
-import ('framework.db.DataAccessObject');
-import ('framework.db.DataObject');
+package db;
 
 /**
  * Description of ArtisteDAO  
@@ -13,87 +8,46 @@ import ('framework.db.DataObject');
 class ArtisteDAO implements DataAccessObject{
 
 
+    private static ArtisteDAO dao;
+    
+    
+    private ArtisteDAO() {    }
+    
+   
+    public final static ArtisteDAO getInstance() {
+        if(this.dao == null) {
+            this.dao= new ArtisteDAO();
+        }
+        return this.dao;
+    }
+    
+    
 
-    private static $dao;
-    
-    
-    
-    private function __construct() {
+   private final void insertPr(Artiste artiste, SQliteConnexion dbc){
+
+	        String query = "insert into Artiste(nom) values "+artiste.getNom();
+	        super.statement(dbc,query);
+
     }
     
     
-    
-    public final static function getInstance() {
-        if(!isset(self::$dao)) {
-            self::$dao= new ArtisteDAO();
-        }
-        return self::$dao;
-    }
-    
-    
-  	public final function findAll(){
-  	
-		$dbc = Application::getInstance()->getDBConnection();
-		$dbc->exec("SET NAMES UTF8");
-		$query = "select * from Artiste order by nom";
-		$stmt = $dbc->query($query);
-		$results = $stmt->fetchALL(PDO::FETCH_CLASS, 'Artiste');
-    		
-    		return $results;
-    }
-    
-    
-    
-   public final function insert(DataObject $artiste){
-        if($artiste instanceof Artiste){
-	        $dbc = Application::getInstance()->getDBConnection();
-		$dbc->exec("SET NAMES UTF8");
-	        // prepare the SQL statement
-	        $query = "insert into Artiste(nom) values (:n)";
-	        $stmt = $dbc->prepare($query);
-	
-	        // bind the paramaters
-	        $stmt->bindValue(':n',$artiste->getNom(),PDO::PARAM_STR);
-	
-	         // execute the prepared statement
-	        $stmt->execute();
-        }
-    }
-    
-     public function delete(DataObject $artiste){
+    private void deletePr(Artiste artiste, SQliteConnexion dbc){
      	
-     	if($artiste instanceof Artiste){
-	        $dbc = Application::getInstance()->getDBConnection();
-		$dbc->exec("SET NAMES UTF8");
-	        // prepare the SQL statement
-	        $query = "DELETE FROM Artiste WHERE id_artiste=:n";
-	        $stmt = $dbc->prepare($query);
-	
-	        // bind the paramaters
-	        $stmt->bindValue(':n',$artiste->getId(),PDO::PARAM_STR);
-	
-	         // execute the prepared statement
-	        $stmt->execute();
-      	}
+
+	        String query = "DELETE FROM Artiste WHERE id_artiste="+artiste.getId();
+	        super.statement(dbc,query);
+
      
-      }    
-    
-	public function update(DataObject $artiste){
+      }
+     
+	private void updatePr(Artiste artiste, SQliteConnexion dbc){
 	
-	    if($artiste instanceof Artiste){
-	        $dbc = Application::getInstance()->getDBConnection();
-		$dbc->exec("SET NAMES UTF8");
-	        // prepare the SQL statement
-	        $query = "UPDATE Artiste SET nom=:n WHERE id_artiste=:i";
-	        $stmt = $dbc->prepare($query);
+
+	        String query = "UPDATE Artiste SET nom="+artiste.getNom()+" WHERE id_artiste="+artiste.getId();
+	        super.statement(dbc,query);
 	
-	        // bind the paramaters
-	        $stmt->bindValue(':n',$artiste->getNom(),PDO::PARAM_STR);
-	        $stmt->bindValue(':i',$artiste->getId(),PDO::PARAM_STR);
-	
-	         // execute the prepared statement
-	        $stmt->execute();
-      	}
-	 }
+	}
+
+
 }
-?> 
+

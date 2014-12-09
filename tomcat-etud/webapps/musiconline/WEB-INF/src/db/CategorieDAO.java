@@ -1,9 +1,4 @@
-<?php 
-
-import ('framework.Application');
-import ('musiconline.db.Pays');
-import ('framework.db.DataAccessObject');
-import ('framework.db.DataObject');
+package db;
 
 /**
  * Description of CategorieDAO  
@@ -13,79 +8,46 @@ import ('framework.db.DataObject');
 class CategorieDAO implements DataAccessObject{
 
 
+    private static CategorieDAO dao;
+    
+    
+    private CategorieDAO() {    }
+    
+   
+    public final static CategorieDAO getInstance() {
+        if(this.dao == null) {
+            this.dao= new CategorieDAO();
+        }
+        return this.dao;
+    }
+    
+    
 
-    private static $dao;
-    
-    
-    
-    private function __construct() {
+   private final void insertPr(Categorie categorie, SQliteConnexion dbc){
+
+	        String query = "insert into Categorie(nom) values "+categorie.getNom();
+	        super.statement(dbc,query);
+
     }
     
     
-    
-    public final static function getInstance() {
-        if(!isset(self::$dao)) {
-            self::$dao= new CategorieDAO();
-        }
-        return self::$dao;
-    }
-    
-    
-  	public final function findAll(){
-  	
-		$dbc = Application::getInstance()->getDBConnection();
-		$dbc->exec("SET NAMES UTF8");
-		$query = "select * from Categorie order by nom";
-		$stmt = $dbc->query($query);
-		$results = $stmt->fetchALL(PDO::FETCH_CLASS, 'Categorie');
-    		
-    		return $results;
-    }
-    
-    
-    
-   public final function insert(DataObject $categorie){
-        if($categorie instanceof Categorie){
-	        $dbc = Application::getInstance()->getDBConnection();
-		$dbc->exec("SET NAMES UTF8");
-	        // prepare the SQL statement
-	        $query = "insert into Categorie(nom) values (:n)";
-	        $stmt = $dbc->prepare($query);
-	
-	        // bind the paramaters
-	        $stmt->bindValue(':n',$categorie->getNom(),PDO::PARAM_STR);
-	
-	         // execute the prepared statement
-	        $stmt->execute();
-        }
-    }
-    
-    
-     public function delete(DataObject $categorie){
+    private void deletePr(Categorie categorie, SQliteConnexion dbc){
      	
-     	if($categorie instanceof Categorie){
-	        $dbc = Application::getInstance()->getDBConnection();
-		$dbc->exec("SET NAMES UTF8");
-	        // prepare the SQL statement
-	        $query = "DELETE FROM Categorie WHERE nom=:n";
-	        $stmt = $dbc->prepare($query);
-	
-	        // bind the paramaters
-	        $stmt->bindValue(':n',$categorie->getNom(),PDO::PARAM_STR);
-	
-	         // execute the prepared statement
-	        $stmt->execute();
-      	}
+
+	        String query = "DELETE FROM Categorie WHERE nom="+categorie.getNom();
+	        super.statement(dbc,query);
+
      
-      } 
+      }
      
-     
-	public function update(DataObject $obj){
+	private void updatePr(Categorie categorie, SQliteConnexion dbc){
 	
-		echo "ERROR : Update forbiden, Nom of the Categorie can't be change.";
-		
-	 }
+
+	        String query = "UPDATE Categorie SET nom="+categorie.getNom()+" WHERE nom="+categorie.getNom();
+	        super.statement(dbc,query);
 	
+	}
+
 	
 }
-?> 
+
