@@ -10,18 +10,17 @@
    <jsp:include page="menu.jsp"/>
    <div class="main">
      <jsp:scriptlet>
-   	HttpSession session = request.getSession();
-	boolean error = session.getAttribute("error");
+   	session = request.getSession();
+	boolean error = (boolean) session.getAttribute("error-form");
 
 	if(error == true){
 		out.println("ERROR Il y a un problème dans le formulaire, votre compte ne peut être créé");
 	}
-
-	
+	else {	
+		out.println("Votre compte a bien &#233t&#233 cr&#233&#233 :) ! Vous pouvez d&#233sormais vous connecter.");
+	}
      </jsp:scriptlet>
-	
-	<br />Votre compte a bien &#233t&#233 cr&#233&#233 :) ! Vous pouvez d&#233sormais vous connecter.<br /> <br />
-	
+
    </div>
  </body>
 </html>

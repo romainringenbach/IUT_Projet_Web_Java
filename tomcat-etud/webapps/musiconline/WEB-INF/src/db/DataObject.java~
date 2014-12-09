@@ -1,6 +1,6 @@
 package db;
 
-interface DataObject {
+interface DatAObject {
 
 	public void init();
 

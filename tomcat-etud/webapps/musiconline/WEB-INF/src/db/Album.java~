@@ -2,24 +2,25 @@ package db;
 
 import db.DataObject;
 
-
 /**
- * Description of Pays
+ * Description of Album
  *
  * @author ledoux-levin simon / ringenbach romain
  */
-	class Pays implements DataObject{
+ 
+	class Album implements DataObject{
 
 	 	private String nom;
+	 	private int id;
 		
-		public Pays(){
+		public void Album(){
 		
 		}
 		
-		public void init(String name){
+		public void init(int idi,String name){
 			
 				this.nom = name;
-				
+				this.id = idi;
 		}
 		
 		public String getNom(){
@@ -32,10 +33,17 @@ import db.DataObject;
 		
 			this.nom = name;
 		}
+		
+		public int getId(){
+		
+			return this.id;
+		}
+	
+			
+		public void setId(idi){
+		
+			this.id = idi;
+		}
+
 
 	}
-
-			
-		
-		
-		

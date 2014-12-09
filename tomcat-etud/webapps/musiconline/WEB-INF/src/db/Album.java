@@ -17,7 +17,7 @@ import db.DataObject;
 		
 		}
 		
-		public void init(idi, name){
+		public void init(int idi,String name){
 			
 				this.nom = name;
 				this.id = idi;
@@ -29,7 +29,7 @@ import db.DataObject;
 		}
 	
 			
-		public void setNom(name){
+		public void setNom(String name){
 		
 			this.nom = name;
 		}
@@ -40,7 +40,7 @@ import db.DataObject;
 		}
 	
 			
-		public void setId(idi){
+		public void setId(int idi){
 		
 			this.id = idi;
 		}

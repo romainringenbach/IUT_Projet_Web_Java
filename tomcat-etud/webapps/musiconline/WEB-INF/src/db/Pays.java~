@@ -10,7 +10,7 @@ import db.DataObject;
  */
 	class Pays implements DataObject{
 
-	 	private String nom;
+	 	private nom;
 		
 		public Pays(){
 		

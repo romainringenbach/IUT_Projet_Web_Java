@@ -43,7 +43,7 @@ class ClientDAO implements DataAccessObject{
      
 	private void updatePr(Client client, SQliteConnexion dbc){
 			
-	        String query = "UPDATE Client SET nom=" + client.getEmail()+",prenom=" + client.getPassword()+",email=" + client.getNom()+",passwd=" + client.getPrenom()+",date_naissance=" + client.getDateNaissance()+",adresse=" + client.getAdresse()+",code_postal=" + client.getCodePostal()+",ville=" + client.getVille()+",pays=" + client.getPays() +"WHERE loginClient=" + client.getLogin();
+	        String query = "UPDATE Client SET nom=" + client.getEmail()+",prenom=" + client.getPassword()+",email=" + client.getNom()+",passwd=" + client.getPrenom()+",date_naissance=" + client.getDateNaissance()+",adresse=" + client.getAdresse()+",code_postal=" + client.getCodePostal()+",ville=" + client.getVille()+",pays=" + client.getPays() "WHERE loginClient=" + client.getLogin();
 	        super.statement(dbc,query);
 	
 	}
