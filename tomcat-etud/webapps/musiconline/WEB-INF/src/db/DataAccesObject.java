@@ -1,8 +1,8 @@
 package db;
 
 import java.sql.*;
-import javax.sql.*;
-import db.*;
+import org.sqlite.*;
+import org.sqlite.JDBC;
 
 public abstract class DataAccesObject {
 
@@ -10,23 +10,23 @@ public abstract class DataAccesObject {
 
 	protected DataAccesObject(){};
 
-    public abstract DataAccesObject getInstance();
+    public abstract static DataAccesObject getInstance();
 
-    protected final SQLiteConnexion connexion(){
+    protected final SQLiteConnection connexion(){
 
-    	SQLiteConnexion dbc = SQLiteConnexion.getDBConnection();
+    	SQLiteConnection dbc = SQLiteConnection.getDBConnection();
     	return dbc;
 
     }
 
-    protected final PreparedStatement pStatement(SQLiteConnexion connexion, String statement){
+    protected final PreparedStatement pStatement(SQLiteConnection connexion, String statement){
 
     	PreparedStatement st = connexion.preparedStatement(statement);
     	return st;
 
     }
 
-    protected final void statement(SQLiteConnexion connexion, String statement){
+    protected final void statement(SQLiteConnection connexion, String statement){
 
     	PreparedStatement st = connexion.preparedStatement(statement);
     	st.execute();
@@ -37,7 +37,7 @@ public abstract class DataAccesObject {
 
     public final void insert(DataObject data) throws Exception {
 
-    	SQLiteConnexion dbc = this.connexion();
+    	SQLiteConnection dbc = this.connexion();
     	connexion.setAutoCommit(false);
     	this.insertPr(data, dbc);
     	try{
@@ -52,7 +52,7 @@ public abstract class DataAccesObject {
 
     public final void delete(DataObject data) throws Exception {
 
-    	SQLiteConnexion dbc = this.connexion();
+    	SQLiteConnection dbc = this.connexion();
     	connexion.setAutoCommit(false);
     	this.deletePr(data, dbc);
     	try{
@@ -67,7 +67,7 @@ public abstract class DataAccesObject {
 
     public final void update(DataObject data) throws Exception {
 
-    	SQLiteConnexion dbc = this.connexion();
+    	SQLiteConnection dbc = this.connexion();
     	connexion.setAutoCommit(false);
     	this.updatePr(data, dbc);
     	try{
@@ -82,7 +82,7 @@ public abstract class DataAccesObject {
     
   	public final ResultSet findAll(String table){
   	
-    	SQLiteConnexion dbc = this.connexion();		
+    	SQLiteConnection dbc = this.connexion();		
 		String query = "select * from "+table;
 		stmt = dbc.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE);
 		ResultSet rs = stmt.executeQuery(query);
@@ -91,11 +91,11 @@ public abstract class DataAccesObject {
     }
     
     
-    private abstract void insertPr();
+    public abstract void insertPr();
 
-    private abstract void deletePr();
+    public abstract void deletePr();
 
-    private abstract void updatePr();
+    public abstract void updatePr();
 
 
 

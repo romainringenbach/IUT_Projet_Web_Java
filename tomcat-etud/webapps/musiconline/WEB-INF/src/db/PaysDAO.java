@@ -5,7 +5,7 @@ package db;
  *
  * @author lesommer
  */
-class PaysDAO implements DataAccessObject{
+public class PaysDAO implements DataAccessObject{
 
 
 
@@ -16,15 +16,15 @@ class PaysDAO implements DataAccessObject{
     
    
     public final static PaysDAO getInstance() {
-        if(this.dao == null) {
-            this.dao= new PaysDAO();
+        if(dao == null) {
+            dao= new PaysDAO();
         }
-        return this.dao;
+        return dao;
     }
     
     
 
-   private final void insertPr(Pays pays, SQliteConnexion dbc){
+   public final void insertPr(Pays pays, SQliteConnexion dbc){
 
 	        String query = "insert into Pays(nom) values "+pays.getNom();
 	        super.statement(dbc,query);
@@ -32,7 +32,7 @@ class PaysDAO implements DataAccessObject{
     }
     
     
-    private void deletePr(Pays pays, SQliteConnexion dbc){
+    public void deletePr(Pays pays, SQliteConnexion dbc){
      	
 
 	        String query = "DELETE FROM Pays WHERE nom="+pays.getNom();
@@ -41,7 +41,7 @@ class PaysDAO implements DataAccessObject{
      
       }
      
-	private void updatePr(Pays pays, SQliteConnexion dbc){
+	public void updatePr(Pays pays, SQliteConnexion dbc){
 	
 
 	        String query = "UPDATE Pays SET nom="+pays.getNom()+" WHERE nom="+pays.getNom();

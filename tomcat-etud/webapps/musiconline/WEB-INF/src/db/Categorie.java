@@ -6,15 +6,11 @@ import db.DataObject;
  *
  * @author ledoux-levin simon / ringenbach romain
  */
-	class Categorie implements DataObject{
+	public class Categorie implements DataObject{
 
 	 	private String nom;
 		
-		public Categorie(){
-		
-		}
-		
-		public String init(String name){
+		public Categorie(String name){
 			
 				this.nom = name;
 				

@@ -9,7 +9,7 @@ import db.DataObject;
  * @author ledoux-levin simon / ringenbach romain
  */
  
-	class Client implements DataObject{
+	public class Client implements DataObject{
 
 	 	private String login;
 	 	private String email;
@@ -23,18 +23,14 @@ import db.DataObject;
 	 	private String pays ;
 	 	
 		
-		public  Client(){
-		
-		}
-		
-		public void init(String login, String email, String passwd, String nom, String prenom, String dateNaissance, String adresse, int code_postal, String ville, String pays){
+		public Client(String login, String email, String passwd, String nom, String prenom, String dateNaissance, String adresse, int code_postal, String ville, String pays){
 			
 				this.login = login;
 				this.email = email;
 				this.passwd =passwd;
 				this.nom =nom;
 				this.prenom =prenom;
-				this.date_naissance =dateNaissance;
+				this.dateNaissance =dateNaissance;
 				this.adresse =adresse;
 				this.code_postal =code_postal;
 				this.ville =ville;
@@ -98,13 +94,13 @@ import db.DataObject;
 		
 		public String getDateNaissance(){
 		
-			return this.date_naissance;
+			return this.dateNaissance;
 		}
 	
 			
 		public void setDateNaissance(String date){
 		
-			this.date_naissance = date;
+			this.dateNaissance = date;
 		}
 		
 		public String getAdresse(){

@@ -5,7 +5,7 @@ package db;
  *
  * @author lesommer
  */
-class CommandeDAO implements DataAccessObject{
+public class CommandeDAO implements DataAccessObject{
 
 
 	
@@ -16,15 +16,15 @@ class CommandeDAO implements DataAccessObject{
     
    
     public final static CommandeDAO getInstance() {
-        if(this.dao == null) {
-            this.dao= new CommandeDAO();
+        if(dao == null) {
+            dao= new CommandeDAO();
         }
-        return this.dao;
+        return dao;
     }
     
     
 
-   private final void insertPr(Commande commande, SQliteConnexion dbc){
+   public final void insertPr(Commande commande, SQliteConnexion dbc){
 
 	        String query = "insert into Commande(id_titre, loginClient, date) values ("+commande.getIdTitre()+","+ commande.getLoginClient()+","+ commande.getDate()+")" ;
 	        super.statement(dbc,query);
@@ -32,7 +32,7 @@ class CommandeDAO implements DataAccessObject{
     }
     
     
-    private void deletePr(Commande commande, SQliteConnexion dbc){
+    public void deletePr(Commande commande, SQliteConnexion dbc){
      	
 
 	        String query = "DELETE FROM Commande WHERE loginClient="+commande.getLoginClient()+" AND id_titre="+commande.getIdTitre() ;
@@ -41,7 +41,7 @@ class CommandeDAO implements DataAccessObject{
      
       }
      
-	private void updatePr(Commande commande, SQliteConnexion dbc){
+	public void updatePr(Commande commande, SQliteConnexion dbc){
 			
 	        
 	

@@ -9,21 +9,17 @@ import db.DataObject;
  * @author ledoux-levin simon / ringenbach romain
  */
  
-	class Titre implements DataObject{
+	public class Titre implements DataObject{
 
 	 	private int id;
 	 	private String nom;
 	 	private int album;
 	 	private int artiste;
-	 	private int categorie;
+	 	private String categorie;
 	 	private int prix;
 	 	
-		
-		public Titre(){
-		
-		}
-		
-		public void init(int idi,int name,int album,int artiste,String categorie,int prix){
+	
+		public Titre(int idi,String name,int album,int artiste,String categorie,int prix){
 			
 				this.id = idi;
 				this.nom = name;

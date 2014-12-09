@@ -8,16 +8,13 @@ import db.DataObject;
  * @author ledoux-levin simon / ringenbach romain
  */
  
-	class Album implements DataObject{
+	public class Album implements DataObject{
 
 	 	private String nom;
 	 	private int id;
 		
-		public void Album(){
-		
-		}
-		
-		public void init(int idi,String name){
+
+		public Album(int idi,String name){
 			
 				this.nom = name;
 				this.id = idi;

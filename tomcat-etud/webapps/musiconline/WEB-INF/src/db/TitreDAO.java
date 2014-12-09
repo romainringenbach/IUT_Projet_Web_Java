@@ -4,26 +4,26 @@ package db;
  *
  * @author lesommer
  */
-class TitreDAO implements DataAccessObject{
+public class TitreDAO implements DataAccessObject{
 
 
 
     private static TitreDAO dao;
     
     
-    private TitreDAO() {    }
+    private TitreDAO() {}
     
    
     public final static TitreDAO getInstance() {
-        if(this.dao == null) {
-            this.dao= new TitreDAO();
+        if(dao == null) {
+            dao = new TitreDAO();
         }
-        return this.dao;
+        return dao;
     }
     
     
 
-   private final void insertPr(Titre titre, SQliteConnexion dbc){
+   public final void insertPr(Titre titre, SQliteConnexion dbc){
 
 	        String query = "INSERT INTO Titre(nom, album, artiste, categorie, prix) VALUE ("+titre.getNom()+"," +titre.getAlbum()+"," +titre.getArtiste()+","+ titre.getCategorie()+"," +titre.getPrix()+")" ;
 	        super.statement(dbc,query);
@@ -31,7 +31,7 @@ class TitreDAO implements DataAccessObject{
     }
     
     
-    private void deletePr(Titre titre, SQliteConnexion dbc){
+    public void deletePr(Titre titre, SQliteConnexion dbc){
      	
 
 	        String query = "DELETE FROM Titre WHERE id_titre="+titre.getId() ;
@@ -40,7 +40,7 @@ class TitreDAO implements DataAccessObject{
      
       }
      
-	private void updatePr(Titre titre, SQliteConnexion dbc){
+	public void updatePr(Titre titre, SQliteConnexion dbc){
 			
 	        String query = "UPDATE Titre SET nom="+titre.getNom()+", album="+titre.getAlbum()+", artiste="+titre.getArtiste()+", categorie="+titre.getCategorie()+", prix="+titre.getPrix()+" WHERE id_titre="+titre.getId();
 	        super.statement(dbc,query);

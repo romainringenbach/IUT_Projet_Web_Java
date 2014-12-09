@@ -8,15 +8,12 @@ import db.DataObject;
  *
  * @author ledoux-levin simon / ringenbach romain
  */
-	class Pays implements DataObject{
+	public class Pays implements DataObject{
 
 	 	private String nom;
 		
-		public Pays(){
-		
-		}
-		
-		public void init(String name){
+	
+		public Pays(String name){
 			
 				this.nom = name;
 				

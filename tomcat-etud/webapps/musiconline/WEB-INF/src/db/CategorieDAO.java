@@ -5,7 +5,7 @@ package db;
  *
  * @author lesommer
  */
-class CategorieDAO implements DataAccessObject{
+public class CategorieDAO implements DataAccessObject{
 
 
     private static CategorieDAO dao;
@@ -15,15 +15,15 @@ class CategorieDAO implements DataAccessObject{
     
    
     public final static CategorieDAO getInstance() {
-        if(this.dao == null) {
-            this.dao= new CategorieDAO();
+        if(dao == null) {
+            dao= new CategorieDAO();
         }
-        return this.dao;
+        return dao;
     }
     
     
 
-   private final void insertPr(Categorie categorie, SQliteConnexion dbc){
+   public final void insertPr(Categorie categorie, SQliteConnexion dbc){
 
 	        String query = "insert into Categorie(nom) values "+categorie.getNom();
 	        super.statement(dbc,query);
@@ -31,7 +31,7 @@ class CategorieDAO implements DataAccessObject{
     }
     
     
-    private void deletePr(Categorie categorie, SQliteConnexion dbc){
+    public void deletePr(Categorie categorie, SQliteConnexion dbc){
      	
 
 	        String query = "DELETE FROM Categorie WHERE nom="+categorie.getNom();
@@ -40,7 +40,7 @@ class CategorieDAO implements DataAccessObject{
      
       }
      
-	private void updatePr(Categorie categorie, SQliteConnexion dbc){
+	public void updatePr(Categorie categorie, SQliteConnexion dbc){
 	
 
 	        String query = "UPDATE Categorie SET nom="+categorie.getNom()+" WHERE nom="+categorie.getNom();

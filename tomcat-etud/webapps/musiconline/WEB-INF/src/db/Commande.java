@@ -9,17 +9,14 @@ import db.DataObject;
  * @author ledoux-levin simon / ringenbach romain
  */
  
-	class Commande implements DataObject{
+	public class Commande implements DataObject{
 
 	 	private int  idTitre;
 	 	private String loginClient ;
 	 	private String date;
 		
-		public  Commande(){
-		
-		}
-		
-		public void init(int idT, String log, String date){
+	
+		public Commande(int idT, String log, String date){
 			
 				this.idTitre = idT;
 				this.loginClient = log;

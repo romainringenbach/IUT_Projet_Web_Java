@@ -8,16 +8,13 @@ import db.DataObject;
  * @author ledoux-levin simon / ringenbach romain
  */
  
-	class Artiste implements DataObject{
+	public class Artiste implements DataObject{
 
 	 	private String nom;
 	 	private int id;
 		
-		public Artiste(){
 		
-		}
-		
-		public void init(int idi, String name){
+		public Artiste(int idi, String name){
 			
 				this.nom = name;
 				this.id = idi;

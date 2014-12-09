@@ -7,7 +7,7 @@ import db.*;
  * @author lesommer
  */
 
-class AlbumDAO extends DataAccesObject{
+public class AlbumDAO extends DataAccessObject{
 
 
 
@@ -18,15 +18,15 @@ class AlbumDAO extends DataAccesObject{
     
    
     public final static AlbumDAO getInstance() {
-        if(this.dao == null) {
-            this.dao= new AlbumDAO();
+        if(dao == null) {
+            dao= new AlbumDAO();
         }
-        return this.dao;
+        return dao;
     }
     
     
 
-   private final void insertPr(Album album, SQliteConnexion dbc){
+   public void insertPr(Album album, SQliteConnexion dbc){
 
 	        String query = "insert into Album(nom) values "+album.getNom();
 	        super.statement(dbc,query);
@@ -34,7 +34,7 @@ class AlbumDAO extends DataAccesObject{
     }
     
     
-    private void deletePr(Album album, SQliteConnexion dbc){
+   public void deletePr(Album album, SQliteConnexion dbc){
      	
 
 	        String query = "DELETE FROM Album WHERE id_album="+album.getId();
@@ -43,7 +43,7 @@ class AlbumDAO extends DataAccesObject{
      
       }
      
-	private void updatePr(Album album, SQliteConnexion dbc){
+	 public void updatePr(Album album, SQliteConnexion dbc){
 	
 
 	        String query = "UPDATE Album SET nom="+album.getNom()+" WHERE id_album="+album.getId();

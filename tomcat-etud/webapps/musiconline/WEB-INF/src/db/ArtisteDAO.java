@@ -5,7 +5,7 @@ package db;
  *
  * @author lesommer
  */
-class ArtisteDAO implements DataAccessObject{
+public class ArtisteDAO implements DataAccessObject{
 
 
     private static ArtisteDAO dao;
@@ -15,15 +15,15 @@ class ArtisteDAO implements DataAccessObject{
     
    
     public final static ArtisteDAO getInstance() {
-        if(this.dao == null) {
-            this.dao= new ArtisteDAO();
+        if(dao == null) {
+            dao= new ArtisteDAO();
         }
-        return this.dao;
+        return dao;
     }
     
     
 
-   private final void insertPr(Artiste artiste, SQliteConnexion dbc){
+   public final void insertPr(Artiste artiste, SQliteConnexion dbc){
 
 	        String query = "insert into Artiste(nom) values "+artiste.getNom();
 	        super.statement(dbc,query);
@@ -31,7 +31,7 @@ class ArtisteDAO implements DataAccessObject{
     }
     
     
-    private void deletePr(Artiste artiste, SQliteConnexion dbc){
+    public void deletePr(Artiste artiste, SQliteConnexion dbc){
      	
 
 	        String query = "DELETE FROM Artiste WHERE id_artiste="+artiste.getId();
@@ -40,7 +40,7 @@ class ArtisteDAO implements DataAccessObject{
      
       }
      
-	private void updatePr(Artiste artiste, SQliteConnexion dbc){
+	public void updatePr(Artiste artiste, SQliteConnexion dbc){
 	
 
 	        String query = "UPDATE Artiste SET nom="+artiste.getNom()+" WHERE id_artiste="+artiste.getId();
