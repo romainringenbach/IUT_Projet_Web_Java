@@ -13,10 +13,8 @@
    	Object data = request.getAttribute("data");
 
 	if(data!=null && data instanceof String){
+	out.println(data);
 	}
-	
-	
-
      </jsp:scriptlet>
 	
 	<br />Veuillez remplir les formulaire ci-dessous afin de cr&#233er un compte sur MusicOnline.<br /> <br />

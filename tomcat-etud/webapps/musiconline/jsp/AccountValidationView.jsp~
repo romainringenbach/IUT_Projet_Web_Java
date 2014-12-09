@@ -10,14 +10,15 @@
    <jsp:include page="menu.jsp"/>
    <div class="main">
      <jsp:scriptlet>
-   	Object data = request.getAttribute("data");
-	Object nom = request.getAttribute("nom");
+   	HttpSession session = request.getSession();
+	boolean error = session.getAttribute("error");
 
-	if(data!=null && nom!=null && data instanceof String){
-		out.println(nom);
+	if(error == true){
+		out.println("ERROR Il y a un problème dans le formulaire, votre compte ne peut être créé");
+   		out.println(data);
 	}
 
-	out.println("error");
+	
      </jsp:scriptlet>
 	
 	<br />Votre compte a bien &#233t&#233 cr&#233&#233 :) ! Vous pouvez d&#233sormais vous connecter.<br /> <br />

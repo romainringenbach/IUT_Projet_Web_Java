@@ -21,7 +21,7 @@ public class AccountCreationListener implements ActionListener {
 	if( nom != "" && prenom != "" && login != "" && date != "" && email != "" && adresse != "" && code != "" && ville != "" && pays != "" ){
     	
 		HttpSession session = request.getSession();
-		
+		session.setAttribute("
 	}   
 	else{
 		System.out.println("Error");
