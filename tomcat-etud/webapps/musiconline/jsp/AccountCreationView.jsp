@@ -37,7 +37,7 @@
 
 				   <tr>
 				       <td>Mot de passe :</td>
-				       <td><INPUT type="text" name="password"></td>
+				       <td><INPUT type="password" name="password"></td>
 				   </tr>
 				   <tr>
 				       <td>Date de naissance (AAAA-MM-JJ) :</th>

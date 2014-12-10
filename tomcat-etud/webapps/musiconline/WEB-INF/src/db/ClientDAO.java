@@ -32,8 +32,6 @@ public class ClientDAO extends DataAccessObject{
 
 	        String query = "INSERT INTO Client VALUES ('"+client.getLogin()+"', '"+client.getEmail()+"', '"+client.getPassword()+"', '"+client.getNom()+"', '"+client.getPrenom()+"', '"+client.getDateNaissance()+"', '"+client.getAdresse()+"', '"+client.getCodePostal()+"', '"+client.getVille()+"', '"+client.getPays()+"')";
 		
-		
-
 		System.out.println(query);
 	        super.statement(dbc,query);
 
