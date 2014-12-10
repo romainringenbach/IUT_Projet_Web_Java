@@ -43,7 +43,7 @@ public class CategorieDAO extends DataAccessObject{
      
       }
      
-	public void updatePr(DataObject data, java.sql.Connection dbc) throws SQLException{
+	public void updatePr(Categorie categorie, java.sql.Connection dbc) throws SQLException{
 
 		Categorie categorie = (Categorie) data;	
 	        String query = "UPDATE Categorie SET nom="+categorie.getNom()+" WHERE nom="+categorie.getNom();

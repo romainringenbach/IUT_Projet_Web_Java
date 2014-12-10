@@ -29,7 +29,7 @@ public class TitreDAO extends DataAccessObject{
 
 		Titre titre = (Titre) data;
 
-	        String query = "INSERT INTO Titre(nom, album, artiste, categorie, prix) VALUE ("+titre.getNom()+"," +titre.getAlbum()+"," +titre.getArtiste()+","+ titre.getCategorie()+"," +titre.getPrix()+")" ;
+	        String query = "INSERT INTO Titre(nom, album, artiste, categorie, prix) VALUE ('"+titre.getNom()+"','"+titre.getAlbum()+"','" +titre.getArtiste()+"','"+ titre.getCategorie()+"','" +titre.getPrix()+"')" ;
 	        super.statement(dbc,query);
 
     }

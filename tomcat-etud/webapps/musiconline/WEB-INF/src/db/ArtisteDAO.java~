@@ -19,7 +19,7 @@ public class ArtisteDAO extends DataAccessObject{
         return dao;
     }
 
-   public  void insertPr(DataObject data, java.sql.Connection dbc)  throws SQLException{
+   public final void insertPr(DataObject data, java.sql.Connection dbc)  throws SQLException{
 
 
 		Artiste artiste = (Artiste) data;

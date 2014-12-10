@@ -22,7 +22,7 @@ public class PaysDAO extends DataAccessObject{
 
 		Pays pays = (Pays) data;
 		System.out.println("PAR LA PAYS !!");
-	        String query = "insert into Pays VALUES ('"+pays.getNom()+"')";
+	        String query = "insert into Pays(nom) values ('"+pays.getNom()+"')";
 		System.out.println(query);
 	        super.statement(dbc,query);
 
