@@ -1701,3 +1701,263 @@
 10-Dec-2014 13:04:42.347 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 10-Dec-2014 13:04:42.355 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 10-Dec-2014 13:04:42.357 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1425 ms
+10-Dec-2014 20:02:59.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+10-Dec-2014 20:02:59.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+10-Dec-2014 20:02:59.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+10-Dec-2014 20:02:59.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Dec-2014 20:02:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-72-generic
+10-Dec-2014 20:02:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Dec-2014 20:02:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+10-Dec-2014 20:02:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+10-Dec-2014 20:02:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Dec-2014 20:02:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:02:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:02:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+10-Dec-2014 20:02:59.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Dec-2014 20:02:59.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/endorsed
+10-Dec-2014 20:02:59.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:02:59.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:02:59.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/temp
+10-Dec-2014 20:02:59.693 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+10-Dec-2014 20:03:00.098 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:03:00.147 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2014 20:03:00.150 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:03:00.153 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2014 20:03:00.153 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1336 ms
+10-Dec-2014 20:03:00.203 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+10-Dec-2014 20:03:00.203 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+10-Dec-2014 20:03:00.212 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+10-Dec-2014 20:03:00.933 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:03:01.011 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 797 ms
+10-Dec-2014 20:03:01.011 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+10-Dec-2014 20:03:01.098 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:03:01.103 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 92 ms
+10-Dec-2014 20:03:01.104 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+10-Dec-2014 20:03:01.190 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:03:01.195 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 91 ms
+10-Dec-2014 20:03:01.196 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+10-Dec-2014 20:03:01.296 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:03:01.299 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 102 ms
+10-Dec-2014 20:03:01.299 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+10-Dec-2014 20:03:01.368 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:03:01.372 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 73 ms
+10-Dec-2014 20:03:01.373 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+10-Dec-2014 20:03:01.823 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 450 ms
+10-Dec-2014 20:03:01.826 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:03:01.832 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:03:01.833 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1679 ms
+10-Dec-2014 20:06:52.406 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:06:52.419 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:06:52.420 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+10-Dec-2014 20:06:52.495 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:06:52.497 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:06:52.498 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:06:52.499 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:06:54.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+10-Dec-2014 20:06:54.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+10-Dec-2014 20:06:54.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+10-Dec-2014 20:06:54.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Dec-2014 20:06:54.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-72-generic
+10-Dec-2014 20:06:54.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Dec-2014 20:06:54.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+10-Dec-2014 20:06:54.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+10-Dec-2014 20:06:54.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Dec-2014 20:06:54.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:06:54.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:06:54.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+10-Dec-2014 20:06:54.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Dec-2014 20:06:54.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/endorsed
+10-Dec-2014 20:06:54.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:06:54.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:06:54.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/temp
+10-Dec-2014 20:06:54.865 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+10-Dec-2014 20:06:54.971 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:06:54.990 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2014 20:06:54.992 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:06:54.995 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2014 20:06:55.004 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 665 ms
+10-Dec-2014 20:06:55.086 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+10-Dec-2014 20:06:55.087 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+10-Dec-2014 20:06:55.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+10-Dec-2014 20:06:55.965 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:06:56.030 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 921 ms
+10-Dec-2014 20:06:56.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+10-Dec-2014 20:06:56.147 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:06:56.159 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 128 ms
+10-Dec-2014 20:06:56.159 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+10-Dec-2014 20:06:56.286 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:06:56.292 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 132 ms
+10-Dec-2014 20:06:56.292 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+10-Dec-2014 20:06:56.387 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:06:56.390 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 98 ms
+10-Dec-2014 20:06:56.390 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+10-Dec-2014 20:06:56.454 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:06:56.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 66 ms
+10-Dec-2014 20:06:56.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+10-Dec-2014 20:06:56.869 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 413 ms
+10-Dec-2014 20:06:56.872 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:06:56.879 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:06:56.882 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1876 ms
+10-Dec-2014 20:16:03.223 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:16:03.279 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:16:03.330 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+10-Dec-2014 20:16:03.381 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:16:03.384 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:16:03.385 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:16:03.386 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:16:11.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+10-Dec-2014 20:16:11.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+10-Dec-2014 20:16:11.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+10-Dec-2014 20:16:11.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Dec-2014 20:16:11.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-72-generic
+10-Dec-2014 20:16:11.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Dec-2014 20:16:11.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+10-Dec-2014 20:16:11.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+10-Dec-2014 20:16:11.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Dec-2014 20:16:11.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:16:11.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:16:11.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+10-Dec-2014 20:16:11.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Dec-2014 20:16:11.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/endorsed
+10-Dec-2014 20:16:11.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:16:11.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:16:11.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/temp
+10-Dec-2014 20:16:11.230 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+10-Dec-2014 20:16:11.331 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:16:11.349 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2014 20:16:11.352 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:16:11.354 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2014 20:16:11.355 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 593 ms
+10-Dec-2014 20:16:11.395 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+10-Dec-2014 20:16:11.395 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+10-Dec-2014 20:16:11.411 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+10-Dec-2014 20:16:12.222 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:16:12.309 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 897 ms
+10-Dec-2014 20:16:12.310 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+10-Dec-2014 20:16:12.425 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:16:12.434 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 124 ms
+10-Dec-2014 20:16:12.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+10-Dec-2014 20:16:12.539 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:16:12.541 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 106 ms
+10-Dec-2014 20:16:12.541 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+10-Dec-2014 20:16:12.603 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:16:12.605 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 64 ms
+10-Dec-2014 20:16:12.606 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+10-Dec-2014 20:16:12.664 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:16:12.666 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 60 ms
+10-Dec-2014 20:16:12.667 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+10-Dec-2014 20:16:13.057 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 390 ms
+10-Dec-2014 20:16:13.061 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:16:13.067 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:16:13.068 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1713 ms
+10-Dec-2014 20:17:05.030 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:17:05.086 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:17:05.137 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+10-Dec-2014 20:17:05.184 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:17:05.224 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:17:05.323 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:17:05.324 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:17:12.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+10-Dec-2014 20:17:12.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+10-Dec-2014 20:17:12.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+10-Dec-2014 20:17:12.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Dec-2014 20:17:12.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-72-generic
+10-Dec-2014 20:17:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Dec-2014 20:17:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+10-Dec-2014 20:17:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+10-Dec-2014 20:17:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Dec-2014 20:17:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:17:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:17:12.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+10-Dec-2014 20:17:12.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Dec-2014 20:17:12.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/endorsed
+10-Dec-2014 20:17:12.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:17:12.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:17:12.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/temp
+10-Dec-2014 20:17:12.287 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+10-Dec-2014 20:17:12.397 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:17:12.420 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2014 20:17:12.429 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:17:12.435 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2014 20:17:12.436 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 655 ms
+10-Dec-2014 20:17:12.499 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+10-Dec-2014 20:17:12.499 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+10-Dec-2014 20:17:12.522 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+10-Dec-2014 20:17:13.440 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:17:13.512 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 989 ms
+10-Dec-2014 20:17:13.512 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+10-Dec-2014 20:17:13.628 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:17:13.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 128 ms
+10-Dec-2014 20:17:13.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+10-Dec-2014 20:17:13.755 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:17:13.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 117 ms
+10-Dec-2014 20:17:13.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+10-Dec-2014 20:17:13.833 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:17:13.835 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 76 ms
+10-Dec-2014 20:17:13.835 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+10-Dec-2014 20:17:13.893 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:17:13.896 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 61 ms
+10-Dec-2014 20:17:13.896 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+10-Dec-2014 20:17:14.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 407 ms
+10-Dec-2014 20:17:14.307 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:17:14.315 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:17:14.316 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1879 ms
+10-Dec-2014 20:17:52.636 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:17:52.692 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:17:52.742 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+10-Dec-2014 20:17:52.789 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:17:52.790 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:17:52.791 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:17:52.792 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:18:26.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+10-Dec-2014 20:18:26.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+10-Dec-2014 20:18:26.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+10-Dec-2014 20:18:26.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Dec-2014 20:18:26.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.2.0-72-generic
+10-Dec-2014 20:18:26.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Dec-2014 20:18:26.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+10-Dec-2014 20:18:26.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_65-b32
+10-Dec-2014 20:18:26.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Dec-2014 20:18:26.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:18:26.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:18:26.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/conf/logging.properties
+10-Dec-2014 20:18:26.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Dec-2014 20:18:26.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/endorsed
+10-Dec-2014 20:18:26.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:18:26.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud
+10-Dec-2014 20:18:26.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/temp
+10-Dec-2014 20:18:26.277 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+10-Dec-2014 20:18:26.395 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:18:26.434 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2014 20:18:26.441 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:18:26.445 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2014 20:18:26.447 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 642 ms
+10-Dec-2014 20:18:26.520 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+10-Dec-2014 20:18:26.521 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+10-Dec-2014 20:18:26.539 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline de l'application web
+10-Dec-2014 20:18:27.443 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:18:27.520 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/musiconline has finished in 982 ms
+10-Dec-2014 20:18:27.521 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/manager de l'application web
+10-Dec-2014 20:18:27.650 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:18:27.661 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/manager has finished in 140 ms
+10-Dec-2014 20:18:27.662 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT de l'application web
+10-Dec-2014 20:18:27.766 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:18:27.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/ROOT has finished in 107 ms
+10-Dec-2014 20:18:27.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/docs de l'application web
+10-Dec-2014 20:18:27.828 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:18:27.830 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/docs has finished in 62 ms
+10-Dec-2014 20:18:27.830 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager de l'application web
+10-Dec-2014 20:18:27.889 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2014 20:18:27.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/host-manager has finished in 62 ms
+10-Dec-2014 20:18:27.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/examples de l'application web
+10-Dec-2014 20:18:28.288 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/simon/INFO2/backup-musiconline/IUT_Projet_Web_Java/tomcat-etud/webapps/examples has finished in 395 ms
+10-Dec-2014 20:18:28.292 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:18:28.305 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:18:28.306 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1857 ms
+10-Dec-2014 20:22:28.465 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:22:28.521 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:22:28.572 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+10-Dec-2014 20:22:28.625 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:22:28.656 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2014 20:22:28.757 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Dec-2014 20:22:28.758 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

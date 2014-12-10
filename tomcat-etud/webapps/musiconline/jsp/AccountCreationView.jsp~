@@ -24,51 +24,51 @@
 				<table>
 				   <tr>
 				       <td>Nom :</th>
-				       <td><INPUT  type="text" name="nom"/></th>
+				       <td><INPUT  type="text" name="nom" required /></th>
 				   </tr>
 				   <tr>
 				       <td>Pr&#233nom :</td>
-				       <td><INPUT type="text" name="prenom"></td>
+				       <td><INPUT type="text" name="prenom" required ></td>
 				   </tr>
 				   <tr>
 				       <td>Login :</th>
-				       <td><INPUT  type="text" name="login"/></th>
+				       <td><INPUT  type="text" name="login" required /></th>
 				   </tr>
 
 				   <tr>
 				       <td>Mot de passe :</td>
-				       <td><INPUT type="password" name="password"></td>
+				       <td><INPUT type="password" name="password" required ></td>
 				   </tr>
 				   <tr>
 				       <td>Date de naissance (AAAA-MM-JJ) :</th>
-				       <td><INPUT  type="text" name="date"/></th>
+				       <td><INPUT  type="text" name="date" required /></th>
 				   </tr>
 
 				   <tr>
 				       <td>Adresse e-mail :</td>
-				       <td><INPUT type="text" name="email"></td>
+				       <td><INPUT type="text" name="email" required ></td>
 				   </tr>
 				   <tr>
 				       <td>Adresse (lieu-dit, rue, ...) :</th>
-				       <td><INPUT  type="text" name="adresse"/></th>
+				       <td><INPUT  type="text" name="adresse" required /></th>
 				   </tr>
 
 				   <tr>
 				       <td>Code postal :</td>
-				       <td><INPUT type="text" name="code"></td>
+				       <td><INPUT type="text" name="code" required ></td>
 				   </tr>
 				   <tr>
 				       <td>Ville :</th>
-				       <td><INPUT  type="text" name="ville"/></th>
+				       <td><INPUT  type="text" name="ville" required /></th>
 				   </tr>
 
 				   <tr>
 				       <td>Pays :</td>
-				       <td><INPUT type="text" name="pays"></td>
+				       <td><INPUT type="text" name="pays" required ></td>
 				   </tr>
 
 				</table>
-				<br/><INPUT type="submit" name="confirmer" value="Confirmer"/>
+				<br/><INPUT type="submit" name="confirmer" value="Confirmer" />
 			</form>
 		</fieldset>
    </div>

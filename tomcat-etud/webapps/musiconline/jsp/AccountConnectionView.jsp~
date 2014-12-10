@@ -21,8 +21,8 @@
 			<form method="POST" action="http://m3104.iut-info-vannes.net/m3104_6/public_html/musiconline/?validLog" enctype="application/x-www-form-urlencoded">
 				<table>
 				   <tr>
-				       <th>Login  :</th>
-				       <th><INPUT  type="text" name="login"/></th>
+				       <td>Login  :</th>
+				       <td><INPUT  type="text" name="login"/></th>
 				   </tr>
 
 				   <tr>

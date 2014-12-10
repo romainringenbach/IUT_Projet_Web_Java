@@ -13,9 +13,10 @@
    	session = request.getSession();
 
 	if((boolean)session.getAttribute("error-bdd") == true){
-		out.println("ERROR ! cr&#233ation du compte n'a pu aboutir");
+		out.println("ERROR ! La cr&#233ation du compte n'a pu aboutir (login ou adresse e-mail d&#233j&#224 utilis&#233s)");
 	}
 	else{
+		
 		out.println("OKAY : la cr&#233ation de compte s'est effectu&#233e sans probl&#232me, vous pouvez maintenant vous connecter :) !");
 	}
 	

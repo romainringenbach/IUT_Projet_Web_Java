@@ -22,12 +22,12 @@
 				<table>
 				   <tr>
 				       <td>Login  :</th>
-				       <td><INPUT  type="text" name="login"/></th>
+				       <td><INPUT  type="text" name="login" required /></th>
 				   </tr>
 
 				   <tr>
 				       <td>Mot de passe  :</td>
-				       <td><INPUT type="password" name="password"></td>
+				       <td><INPUT type="password" name="password" required ></td>
 				   </tr>
 				</table>
 				<br/><INPUT type="submit" name="confirmer" value="Confirmer"/>
