@@ -129,3 +129,9 @@ H1.left {
 	margin-right: 0mm;
 	text-align: left
 }
+
+.bouton_lien {
+    border:none;
+    background:transparent;
+    text-decoration:underline;
+}

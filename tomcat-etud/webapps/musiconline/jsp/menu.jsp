@@ -18,13 +18,14 @@
 		CategorieDAO theCategorieDAO = CategorieDAO.getInstance();
 		ResultSet cats = theCategorieDAO.findAll();
 		while(cats.next()) {
-			out.println("<a class=\"nav\" href=\"/musiconline/?p=cat="+cats.getString(1)+"\">"+cats.getString(1)+"</a><br/>");
+
+		%>
+		<form method="POST" action="?p=categorie" enctype="application/x-www-form-urlencoded"><input type="hidden" name="catChoix" value="<% out.println(cats.getString(1));%>"><INPUT TYPE="submit" NAME="bouton" VALUE="<% out.println(cats.getString(1));%>" style="border:none; background:transparent; text-decoration:underline; font-weight: bold;" /></form>
+		<%
 		}
-		
 		out.println("</div>");
 	}
 	%>
-
 
 	<div class="menuBoxHeader">
 		<span class="menuBoxTitle">Compte utilisateur</span>
@@ -38,7 +39,7 @@
 		}
 		// connecté
 		else {
-			out.println("<a class=\"nav\" href=\"/musiconline/?p=deconcpt\">Se Deconnecter</a><br/>");
+			out.println("<a class=\"nav\" href=\"/musiconline/?p=deconcpt\">Se deconnecter</a><br/>");
 		}
 	%>
 	</div>

@@ -21,7 +21,7 @@
 	if(userCheck!=null){
 
 		String user = (String) userCheck;
-		out.println("Bienvenue ! Vous &#232tes connect&#233 sur MusicOnline sous le compte-client "+user+" !");
+		out.println("Bienvenue ! Vous &#234tes connect&#233 sur MusicOnline sous le compte-client "+user+" !");
 
 	}
 	else{
@@ -33,6 +33,10 @@
 		
 
 	 <br /> <br /> 
+
+<IMG SRC="webapps/musiconline/img/MUSICONLINE.jpg"
+ TITLE="MusicOnline">
+	
 
    </div>
  </body>

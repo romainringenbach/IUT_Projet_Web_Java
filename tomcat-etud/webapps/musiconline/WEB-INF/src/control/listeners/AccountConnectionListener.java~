@@ -27,6 +27,7 @@ public class AccountConnectionListener implements ActionListener {
 
 		TitreDAO titreDB = TitreDAO.getInstance();
 		ResultSet music_title = titreDB.findSomeMusic();
+		
 
 		session.setAttribute("music_title", music_title); 
 

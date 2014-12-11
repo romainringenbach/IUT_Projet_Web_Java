@@ -21,7 +21,7 @@
 	if(userCheck!=null){
 
 		String user = (String) userCheck;
-		out.println("Voici la liste de toutes nos musiques de la cat&#233gorie "+session.getAttribute("catChoix")+" : ");
+		out.println("Voici la liste de toutes nos musiques de la catégorie "+session.getAttribute("catChoix")+" : ");
 		
 	}
 	else{
