@@ -52,6 +52,24 @@ public class TitreDAO extends DataAccessObject{
 	
 	}
 
+	public ResultSet findSomeMusic(){
+
+		ResultSet res = null;
+		
+		try{
+			String query = "SELECT titre.nom, album.nom, artiste.nom, categorie, prix FROM titre, album, artiste WHERE titre.album = album.id_album AND titre.artiste = artiste.id_artiste";
+			Connection connexion = SQliteConnexion.getInstance().getConnection();
+			System.out.println(query);
+			res = connexion.prepareStatement(query).executeQuery();
+			
+		}
+		catch(SQLException ex){
+			System.out.println("Erreur lors de la requete SQL");
+			res = null;
+		}
+		return res;
+	}
+
 
 	
 }

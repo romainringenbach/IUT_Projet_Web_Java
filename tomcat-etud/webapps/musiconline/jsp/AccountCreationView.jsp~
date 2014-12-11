@@ -9,6 +9,9 @@
    <jsp:include page="../html/header.html"/>
    <jsp:include page="menu.jsp"/>
    <div class="main">
+
+	<h1>Accueil</h1>
+
      <jsp:scriptlet>
    	Object data = request.getAttribute("data");
 
@@ -68,7 +71,7 @@
 				   </tr>
 
 				</table>
-				<br/><INPUT type="submit" name="confirmer" value="Confirmer" />
+				<br/><INPUT type="submit" name="confirmer" value="Confirmer"/>
 			</form>
 		</fieldset>
    </div>

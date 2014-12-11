@@ -1,0 +1,26 @@
+package control.listeners;
+
+import javax.servlet.http.*;
+import db.*;
+import control.*;
+import java.sql.*;
+
+public class AccountConnectionListener implements ActionListener {
+
+  public void handle(HttpServletRequest request){
+
+	HttpSession session = request.getSession();
+
+	session.setAttribute("user", null);
+
+	}
+
+
+	
+    
+
+
+  }
+  
+}
+

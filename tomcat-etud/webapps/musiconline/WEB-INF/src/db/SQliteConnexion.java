@@ -46,9 +46,7 @@ class SQliteConnexion {
 
             try {
 		Class.forName("org.sqlite.JDBC");
-		System.out.println("test A");
             this.connect =  DriverManager.getConnection(dsn);
-System.out.println("test B");
             System.out.println( "Connexion reussie" );
             }
             catch ( Exception e ) {

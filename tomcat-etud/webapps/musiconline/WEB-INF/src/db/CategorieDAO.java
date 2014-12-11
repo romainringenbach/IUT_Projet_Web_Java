@@ -51,6 +51,28 @@ public class CategorieDAO extends DataAccessObject{
 	
 	}
 
+	public ResultSet findAll(){
+
+	
+		ResultSet res = null;
+		
+		try{
+			String query = "SELECT * FROM categorie";
+			Connection connexion = SQliteConnexion.getInstance().getConnection();
+			System.out.println(query);
+			res = connexion.prepareStatement(query).executeQuery();
+			
+		}
+		catch(SQLException ex){
+			System.out.println("Erreur lors de la requete SQL");
+			res = null;
+		}
+		return res;
+	}
+
+
+	
+
 	
 }
 

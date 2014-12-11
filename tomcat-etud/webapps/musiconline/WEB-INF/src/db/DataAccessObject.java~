@@ -110,7 +110,7 @@ System.out.println("test 6 ");
     public abstract void deletePr(DataObject data, java.sql.Connection dbc) throws SQLException;
 
 
-    public abstract void updatePr(DataObject data, java.sql.Connection dbc);
+    public abstract void updatePr(DataObject data, java.sql.Connection dbc) throws SQLException;
 
 
 

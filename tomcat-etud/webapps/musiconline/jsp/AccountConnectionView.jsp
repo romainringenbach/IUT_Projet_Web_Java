@@ -9,6 +9,9 @@
    <jsp:include page="../html/header.html"/>
    <jsp:include page="menu.jsp"/>
    <div class="main">
+
+	<h1>Connexion</h1>
+
      <jsp:scriptlet>
    	Object data = request.getAttribute("data");
 
@@ -18,7 +21,7 @@
      </jsp:scriptlet>
 		<br />Veuillez remplir les formulaire ci-dessous afin de vous connecter.<br /><br />
 		<fieldset> <legend>Connexion au compte client</legend>
-			<form method="POST" action="http://m3104.iut-info-vannes.net/m3104_6/public_html/musiconline/?validLog" enctype="application/x-www-form-urlencoded">
+			<form method="POST" action="?p=validcon" enctype="application/x-www-form-urlencoded">
 				<table>
 				   <tr>
 				       <td>Login  :</th>

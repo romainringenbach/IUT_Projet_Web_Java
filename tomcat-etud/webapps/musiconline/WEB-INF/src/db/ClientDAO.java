@@ -57,6 +57,24 @@ public class ClientDAO extends DataAccessObject{
 	
 	}
 
+	public ResultSet findUser(String login, String mdp){
+
+		ResultSet res = null;
+		
+		try{
+			String query = "SELECT login, passwd FROM Client WHERE login ='"+login+"' AND passwd='"+mdp+"'";
+			Connection connexion = SQliteConnexion.getInstance().getConnection();
+			System.out.println(query);
+			res = connexion.prepareStatement(query).executeQuery();
+			
+		}
+		catch(SQLException ex){
+			System.out.println("Erreur lors de la requete SQL");
+			res = null;
+		}
+		return res;
+	}
+
 	
 
 }

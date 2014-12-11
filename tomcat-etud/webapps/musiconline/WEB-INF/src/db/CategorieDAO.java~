@@ -43,13 +43,35 @@ public class CategorieDAO extends DataAccessObject{
      
       }
      
-	public void updatePr(Categorie categorie, java.sql.Connection dbc) throws SQLException{
+	public void updatePr(DataObject data, java.sql.Connection dbc) throws SQLException{
 
 		Categorie categorie = (Categorie) data;	
 	        String query = "UPDATE Categorie SET nom="+categorie.getNom()+" WHERE nom="+categorie.getNom();
 	        super.statement(dbc,query);
 	
 	}
+
+	public ArrayList<Categorie> findAll(){
+
+	
+		ResultSet res = null;
+		
+		try{
+			String query = "SELECT * FROM categorie";
+			Connection connexion = SQliteConnexion.getInstance().getConnection();
+			System.out.println(query);
+			res = connexion.prepareStatement(query).executeQuery();
+			
+		}
+		catch(SQLException ex){
+			System.out.println("Erreur lors de la requete SQL");
+			res = null;
+		}
+		return res;
+	}
+
+
+	
 
 	
 }

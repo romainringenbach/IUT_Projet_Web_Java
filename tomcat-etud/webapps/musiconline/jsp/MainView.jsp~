@@ -9,18 +9,30 @@
    <jsp:include page="../html/header.html"/>
    <jsp:include page="menu.jsp"/>
    <div class="main">
-     <jsp:scriptlet>
-   	Object data = request.getAttribute("data");
 
-	if(data!=null && data instanceof String){
-	out.println(data);
-	}
-     </jsp:scriptlet>
-		
 	<h1>Accueil</h1>
 
-	Bienvenue sur MusicOnline (version JSP) :) <br /> <br /> 
+     <jsp:scriptlet>
 
+	session = request.getSession();
+
+	Object userCheck = session.getAttribute("user");
+	
+	if(userCheck!=null){
+
+		String user = (String) userCheck;
+		out.println("Bienvenue ! Vous &#232tes connect&#233 sur MusicOnline sous le compte-client "+user+" !");
+
+	}
+	else{
+		out.println("Bienvenue sur MusicOnline (version JSP) cher visiteur :) !");
+	}
+
+
+     </jsp:scriptlet>
+		
+
+	 <br /> <br /> 
 
    </div>
  </body>

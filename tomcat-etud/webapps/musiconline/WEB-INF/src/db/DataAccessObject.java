@@ -44,20 +44,14 @@ public abstract class DataAccessObject {
 
     public final void insert(DataObject data) throws Exception {
 
-	System.out.println("test 1 ");
     	Connection dbc = this.connexion().getConnection();
-System.out.println("test 2 ");
     	dbc.setAutoCommit(false);
-System.out.println("test 3  /!\\ ");
     	this.insertPr(data, dbc);
-System.out.println("test 4 ");
     	try{
     		dbc.commit();
-System.out.println("test 5 ");
     	}
     	catch(Exception e){
     		dbc.rollback();
-System.out.println("test 6 ");
     		throw new Exception("Erreur : impossible de faire le commit, application du rollback");
     	}
 

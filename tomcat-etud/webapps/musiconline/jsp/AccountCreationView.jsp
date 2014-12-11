@@ -9,6 +9,9 @@
    <jsp:include page="../html/header.html"/>
    <jsp:include page="menu.jsp"/>
    <div class="main">
+
+	<h1>Cr&#233ation d'un compte</h1>
+
      <jsp:scriptlet>
    	Object data = request.getAttribute("data");
 

@@ -1,26 +1,24 @@
-<%@ page import="db.CategorieDAO, db.Categorie, java.util.ArrayList, java.util.Iterator"%>
+<%@ page import="db.CategorieDAO, db.Categorie, java.util.ArrayList, java.sql.ResultSet"%>
 
 <div class="left_panel">
 	<div class="menuBoxHeader">
 		<span class="menuBoxTitle">Divers</span>
 	</div>
 	<div class="menuBoxContent">
-		<a class="nav" href="/musiconline/">Retour accueil</a><br/>
+		<a class="nav" href="/musiconline/?p=main">Retour accueil</a><br/>
 	</div>
 
 	<%
 	// si il est connecté...
-	if (session.getAttribute("user_firstname") != null) {
+	if (session.getAttribute("user") != null) {
 		out.println("<div class=\"menuBoxHeader\"><span class=\"menuBoxTitle\">Catalogue</span></div>");
 		
 		out.println("<div class=\"menuBoxContent\">");
 		
 		CategorieDAO theCategorieDAO = CategorieDAO.getInstance();
-		ArrayList<Categorie> cats = theCategorieDAO.findAll();
-		Iterator<Categorie> it = cats.iterator();
-		while(it.hasNext()) {
-			Categorie cat = it.next();
-			out.println("<a class=\"nav\" href=\"/musiconline/index?action=null&view=catTitView&cat="+cat.idCategorie+"\">"+cat.label+"</a><br/>");
+		ResultSet cats = theCategorieDAO.findAll();
+		while(cats.next()) {
+			out.println("<a class=\"nav\" href=\"/musiconline/?p=cat="+cats.getString(1)+"\">"+cats.getString(1)+"</a><br/>");
 		}
 		
 		out.println("</div>");
@@ -34,13 +32,13 @@
 	<div class="menuBoxContent">
 	<%
 		// non connecté
-		if (session.getAttribute("user_firstname") == null) {
+		if (session.getAttribute("user") == null) {
 			out.println("<a class=\"nav\" href=\"/musiconline/?p=newcpt\">Creer un compte</a><br/>");
 			out.println("<a class=\"nav\" href=\"/musiconline/?p=concpt\">Se connecter</a><br/>");
 		}
 		// connecté
 		else {
-			out.println("Se deconnecter [TODO]");
+			out.println("<a class=\"nav\" href=\"/musiconline/?p=deconcpt\">Se connecter</a><br/>");
 		}
 	%>
 	</div>
