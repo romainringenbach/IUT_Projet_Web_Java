@@ -30,7 +30,8 @@ public class FrontController extends HttpServlet {
 		rules.add(new UrlMapping("concpt", null,"/jsp/AccountConnectionView.jsp"));
 		rules.add(new UrlMapping("deconcpt", null,"/jsp/AccountDeconnectionView.jsp"));
 		rules.add(new UrlMapping("validcon",new AccountConnectionListener(),"/jsp/DefaultTitleView.jsp"));
-		rules.add(new UrlMapping("catTit", new CategoryTitleListener(),"/jsp/CategoryTitleView.jsp"));
+		rules.add(new UrlMapping("panier", new OrderManagementListener(),"/jsp/OrderView.jsp"));
+		rules.add(new UrlMapping("commande", new PreviousOrderListener(),"/jsp/PreviousOrderView.jsp"));
 
 	    this.appController.setRules(rules);
 	}

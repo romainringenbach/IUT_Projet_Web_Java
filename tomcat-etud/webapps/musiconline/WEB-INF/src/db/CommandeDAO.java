@@ -50,5 +50,23 @@ public class CommandeDAO extends DataAccessObject{
 	
 	}
 
+	public ResultSet findPrevOrder(String user){
+
+		ResultSet res = null;
+		
+		try{
+			String query = "SELECT titre.nom, titre.prix, commande.date FROM titre, commande WHERE commande.id_titre=titre.id_titre AND loginClient='"+user.toString()+"'";
+			Connection connexion = SQliteConnexion.getInstance().getConnection();
+			System.out.println(query);
+			res = connexion.prepareStatement(query).executeQuery();
+			
+		}
+		catch(SQLException ex){
+			System.out.println("Erreur lors de la requete SQL");
+			res = null;
+		}
+		return res;
+	}
+
 	
 }

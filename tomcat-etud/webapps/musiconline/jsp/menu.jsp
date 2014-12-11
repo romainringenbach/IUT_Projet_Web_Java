@@ -39,6 +39,8 @@
 		}
 		// connecté
 		else {
+			out.println("<a class=\"nav\" href=\"/musiconline/?p=panier\">Mon Panier</a><br/>");
+			out.println("<a class=\"nav\" href=\"/musiconline/?p=commande\">Mes Commandes</a><br/>");
 			out.println("<a class=\"nav\" href=\"/musiconline/?p=deconcpt\">Se deconnecter</a><br/>");
 		}
 	%>

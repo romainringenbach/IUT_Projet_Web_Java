@@ -20,7 +20,7 @@
 		while(cats.next()) {
 
 		%>
-		<form method="POST" action="?p=categorie" enctype="application/x-www-form-urlencoded"><input type="hidden" name="catChoix" value="<% out.println(cats.getString(1));%>"><INPUT TYPE="submit" NAME="bouton" VALUE="<% out.println(cats.getString(1));%>" style="border:none; background:transparent; text-decoration:underline; font-weight: bold" /></form>
+		<form method="POST" action="?p=categorie" enctype="application/x-www-form-urlencoded"><input type="hidden" name="catChoix" value="<% out.println(cats.getString(1));%>"><INPUT TYPE="submit" NAME="bouton" VALUE="<% out.println(cats.getString(1));%>" style="border:none; background:transparent; text-decoration:underline; font-weight: bold;" /></form>
 		<%
 		}
 		out.println("</div>");
@@ -39,6 +39,8 @@
 		}
 		// connecté
 		else {
+			out.println("<a class=\"nav\" href=\"/musiconline/?p=deconcpt\">Mon Panier</a><br/>");
+			out.println("<a class=\"nav\" href=\"/musiconline/?p=deconcpt\">Mes Commandes</a><br/>");
 			out.println("<a class=\"nav\" href=\"/musiconline/?p=deconcpt\">Se deconnecter</a><br/>");
 		}
 	%>
