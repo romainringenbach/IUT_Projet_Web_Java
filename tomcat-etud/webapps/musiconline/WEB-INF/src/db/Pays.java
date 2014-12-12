@@ -8,14 +8,15 @@ import db.DataObject;
  *
  * @author ledoux-levin simon / ringenbach romain
  */
-	public class Pays implements DataObject{
+	public class Pays extends DataObject{
 
 	 	private String nom;
 		
 	
 		public Pays(String name){
 			
-				this.nom = name;
+				super();
+				this.nom = stringQuote(name);
 				
 		}
 		
@@ -27,7 +28,7 @@ import db.DataObject;
 			
 		public void setNom(String name){
 		
-			this.nom = name;
+			this.nom = stringQuote(name);
 		}
 
 	}

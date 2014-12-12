@@ -9,7 +9,7 @@ import db.DataObject;
  * @author ledoux-levin simon / ringenbach romain
  */
  
-	public class Titre implements DataObject{
+	public class Titre extends DataObject{
 
 	 	private int id;
 	 	private String nom;
@@ -21,12 +21,13 @@ import db.DataObject;
 	
 		public Titre(int idi,String name,int album,int artiste,String categorie,int prix){
 			
+				super();
 				this.id = idi;
-				this.nom = name;
-				this.album =album;
-				this.artiste =artiste;
-				this.categorie =categorie;
-				this.prix =prix;
+				this.nom = stringQuote(name);
+				this.album = album;
+				this.artiste = artiste;
+				this.categorie =stringQuote(categorie);
+				this.prix = prix;
 		}
 		
 		public String getNom(){
@@ -37,7 +38,7 @@ import db.DataObject;
 			
 		public void setNom(String name){
 		
-			this.nom = name;
+			this.nom = stringQuote(name);
 		}
 		
 		public int getId(){
@@ -81,7 +82,7 @@ import db.DataObject;
 			
 		public void setCategorie(String categorie){
 		
-			this.categorie= categorie;
+			this.categorie= stringQuote(categorie);
 		}
 		
 		public int getPrix(){

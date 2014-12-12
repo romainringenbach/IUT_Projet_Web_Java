@@ -9,7 +9,7 @@ import db.DataObject;
  * @author ledoux-levin simon / ringenbach romain
  */
  
-	public class Commande implements DataObject{
+	public class Commande extends DataObject{
 
 	 	private int  idTitre;
 	 	private String loginClient ;
@@ -18,9 +18,10 @@ import db.DataObject;
 	
 		public Commande(int idT, String log, String date){
 			
+				super();
 				this.idTitre = idT;
-				this.loginClient = log;
-				this.date = date;
+				this.loginClient = stringQuote(log);
+				this.date = stringQuote(date);
 		}
 		
 		public int getIdTitre(){
@@ -42,7 +43,7 @@ import db.DataObject;
 			
 		public void setLoginClient(String log){
 		
-			this.loginClient = log;
+			this.loginClient = stringQuote(log);
 		}
 		
 		public String getDate(){
@@ -53,7 +54,7 @@ import db.DataObject;
 			
 		public void setDate(String date){
 		
-			this.date = date;
+			this.date = stringQuote(date);
 		}
 
 

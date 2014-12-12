@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"> 
  <head>
   <title>Application de depot de TP</title>
+  <script src="../javascript/cookiesmanagement.js" type="text/javascript"></script> 
   <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
  </head>
  <body>
@@ -53,7 +54,7 @@
 					<td> <% out.println(music_cat.getString(3)); %>  </td>
 					<td> <% out.println(music_cat.getString(4)); %>  </td>
 					<td> <% out.println(music_cat.getString(5)+" &#128"); %>  </td>
-					<td> <a href=/ > <img src="img/caddy.jpg"></a>  </td>
+					<td> <img onclick="add( <% music_cat.getString(1);  %> )" src="img/caddy.jpg">  </td>
 				   </tr>
 		<% } %>
 	<% } %>	

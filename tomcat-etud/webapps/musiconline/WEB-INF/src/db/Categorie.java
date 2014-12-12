@@ -6,13 +6,14 @@ import db.DataObject;
  *
  * @author ledoux-levin simon / ringenbach romain
  */
-	public class Categorie implements DataObject{
+	public class Categorie extends DataObject{
 
 	 	private String nom;
 		
 		public Categorie(String name){
 			
-				this.nom = name;
+				super();
+				this.nom = stringQuote(name);
 				
 		}
 		
@@ -24,7 +25,7 @@ import db.DataObject;
 			
 		public void setNom(String name){
 		
-			this.nom = name;
+			this.nom = stringQuote(name);
 		}
 
 	}

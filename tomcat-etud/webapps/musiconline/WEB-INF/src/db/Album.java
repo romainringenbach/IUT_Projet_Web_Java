@@ -8,7 +8,7 @@ import db.DataObject;
  * @author ledoux-levin simon / ringenbach romain
  */
  
-	public class Album implements DataObject{
+	public class Album extends DataObject{
 
 	 	private String nom;
 	 	private int id;
@@ -16,7 +16,8 @@ import db.DataObject;
 
 		public Album(int idi,String name){
 			
-				this.nom = name;
+				super();
+				this.nom = stringQuote(name);
 				this.id = idi;
 		}
 		
@@ -28,7 +29,7 @@ import db.DataObject;
 			
 		public void setNom(String name){
 		
-			this.nom = name;
+			this.nom = stringQuote(name);
 		}
 		
 		public int getId(){

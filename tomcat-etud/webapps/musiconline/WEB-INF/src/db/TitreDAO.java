@@ -1,6 +1,7 @@
 package db;
 
 import java.sql.*;
+import java.util.*;
 /**
  * Description of TitreDAO  
  *
@@ -70,6 +71,8 @@ public class TitreDAO extends DataAccessObject{
 		return res;
 	}
 
+
+
 	public ResultSet findCatMusic(String cat){
 
 		ResultSet res = null;
@@ -88,7 +91,47 @@ public class TitreDAO extends DataAccessObject{
 		return res;
 	}
 
+	public ArrayList<Titre> findSomeByAlbum(String[] idList) throws SQLException{
 
+
+
+		ArrayList<Titre> ret = new ArrayList<Titre>();
+
+    	Connection dbc = this.connexion().getConnection();	
+		String query;
+		Statement stmt;
+		ResultSet rs ;
+		int id;
+
+		for (i = 0; i < idList.length ; i++ ) {
+			
+			id = (int) idList[i];
+
+
+
+			query = "SELECT titre.nom, album.nom, artiste.nom, categorie, prix FROM titre, album, artiste WHERE titre.album=album.id_album AND titre.artiste=artiste.id_artiste AND id_titre = '" + id "'";
+
+			stmt = dbc.createStatement();
+
+			rs = stmt.executeQuery(query);
+
+			while(rs.next()){
+
+		 		int idi = rs.getInt(1);
+		 		String nom = rs.getNString(2);
+		 		int album = rs.getInt(3);
+		 		int artiste = rs.getInt(4);
+		 		String categorie = rs.getNString(5);
+		 		int prix = rs.getInt(6);
+
+		 		ret.add(new Titre( idi, name, album, artiste, categorie, prix);
+		 	}		
+
+		}
+
+		return ret;
+
+	}	
 	
 }
  

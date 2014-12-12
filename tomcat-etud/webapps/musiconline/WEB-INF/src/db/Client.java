@@ -9,7 +9,7 @@ import db.DataObject;
  * @author ledoux-levin simon / ringenbach romain
  */
  
-	public class Client implements DataObject{
+	public class Client extends DataObject{
 
 	 	private String login;
 	 	private String email;
@@ -25,16 +25,17 @@ import db.DataObject;
 		
 		public Client(String login, String email, String passwd, String nom, String prenom, String dateNaissance, String adresse, String code_postal, String ville, String pays){
 			
-				this.login = login;
-				this.email = email;
-				this.passwd =passwd;
-				this.nom =nom;
-				this.prenom =prenom;
-				this.dateNaissance =dateNaissance;
-				this.adresse =adresse;
-				this.code_postal =code_postal;
-				this.ville =ville;
-				this.pays =pays;
+				super();
+				this.login = stringQuote( login);
+				this.email = stringQuote( email);
+				this.passwd = stringQuote(passwd);
+				this.nom = stringQuote(nom);
+				this.prenom = stringQuote(prenom);
+				this.dateNaissance = stringQuote(dateNaissance);
+				this.adresse = stringQuote(adresse);
+				this.code_postal = stringQuote(code_postal);
+				this.ville = stringQuote(ville);
+				this.pays = stringQuote(pays);
 		}
 		
 		public String getLogin(){
@@ -45,7 +46,7 @@ import db.DataObject;
 			
 		public void setLogin(String login){
 		
-			this.login = login;
+			this.login = stringQuote(login);
 		}
 		
 		public String getEmail(){
@@ -56,7 +57,7 @@ import db.DataObject;
 			
 		public void setEmail(String email){
 		
-			this.email = email;
+			this.email = stringQuote(email);
 		}
 		
 		public String getPassword(){
@@ -67,7 +68,7 @@ import db.DataObject;
 			
 		public void setPassword(String password){
 		
-			this.passwd = password;
+			this.passwd = stringQuote(password);
 		}
 		
 		public String getNom(){
@@ -78,7 +79,7 @@ import db.DataObject;
 			
 		public void setNom(String name){
 		
-			this.nom = name;
+			this.nom = stringQuote(name);
 		}
 		
 		public String getPrenom(){
@@ -89,7 +90,7 @@ import db.DataObject;
 			
 		public void setPrenom(String prenom){
 		
-			this.prenom= prenom;
+			this.prenom= stringQuote(prenom);
 		}
 		
 		public String getDateNaissance(){
@@ -100,7 +101,7 @@ import db.DataObject;
 			
 		public void setDateNaissance(String date){
 		
-			this.dateNaissance = date;
+			this.dateNaissance = stringQuote(date);
 		}
 		
 		public String getAdresse(){
@@ -111,7 +112,7 @@ import db.DataObject;
 			
 		public void setAdresse(String adresse){
 		
-			this.adresse= adresse;
+			this.adresse= stringQuote(adresse);
 		}
 		
 		public String getCodePostal(){
@@ -122,7 +123,7 @@ import db.DataObject;
 			
 		public void setCodePostal(String code){
 		
-			this.code_postal= code;
+			this.code_postal= stringQuote(code);
 		}
 
 		public String getVille(){
@@ -133,7 +134,7 @@ import db.DataObject;
 			
 		public void setVille(String ville){
 		
-			this.ville= ville;
+			this.ville= stringQuote(ville);
 		}
 		
 		
@@ -145,7 +146,7 @@ import db.DataObject;
 			
 		public void setPays(String pays){
 		
-			this.pays = pays;
+			this.pays = stringQuote(pays);
 		}
 
 	}
